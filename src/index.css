@@ -242,56 +242,56 @@ body {
 
 @font-face {
   font-family: "canela";
-  src: url("./Fonts/Canela/Canela-Black.woff2") format("woff2"), url("./Fonts/Canela/Canela-Black.woff") format("woff");
+  src: url("/Fonts/Canela/Canela-Black.woff2") format("woff2"), url("/Fonts/Canela/Canela-Black.woff") format("woff");
   font-weight: bold;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "canela";
-  src: url("./Fonts/Canela/Canela-Bold.woff2") format("woff2"), url("./Fonts/Canela/Canela-Bold.woff") format("woff");
+  src: url("/Fonts/Canela/Canela-Bold.woff2") format("woff2"), url("/Fonts/Canela/Canela-Bold.woff") format("woff");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "Helvetica";
-  src: url("./Fonts/Helvetica/Helvetica-BoldOblique.woff2") format("woff2"), url("./Fonts/Helvetica/Helvetica-BoldOblique.woff") format("woff");
+  src: url("/Fonts/Helvetica/Helvetica-BoldOblique.woff2") format("woff2"), url("/Fonts/Helvetica/Helvetica-BoldOblique.woff") format("woff");
   font-weight: bold;
   font-style: italic;
   font-display: swap;
 }
 @font-face {
   font-family: "Helvetica";
-  src: url("./Fonts/Helvetica/Helvetica-Bold.woff2") format("woff2"), url("./Fonts/Helvetica/Helvetica-Bold.woff") format("woff");
+  src: url("/Fonts/Helvetica/Helvetica-Bold.woff2") format("woff2"), url("/Fonts/Helvetica/Helvetica-Bold.woff") format("woff");
   font-weight: bold;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "Helvetica";
-  src: url("./Fonts/Helvetica/Helvetica.woff2") format("woff2"), url("./Fonts/Helvetica/Helvetica.woff") format("woff");
+  src: url("/Fonts/Helvetica/Helvetica.woff2") format("woff2"), url("/Fonts/Helvetica/Helvetica.woff") format("woff");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "Helvetica";
-  src: url("./Fonts/Helvetica/Helvetica-Light.woff2") format("woff2"), url("./Fonts/Helvetica/Helvetica-Light.woff") format("woff");
+  src: url("/Fonts/Helvetica/Helvetica-Light.woff2") format("woff2"), url("/Fonts/Helvetica/Helvetica-Light.woff") format("woff");
   font-weight: 300;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "HelveticaRounded";
-  src: url("./Fonts/Helvetica/HelveticaRounded-Bold.woff2") format("woff2"), url("./Fonts/Helvetica/HelveticaRounded-Bold.woff") format("woff");
+  src: url("/Fonts/Helvetica/HelveticaRounded-Bold.woff2") format("woff2"), url("/Fonts/Helvetica/HelveticaRounded-Bold.woff") format("woff");
   font-weight: bold;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "Helvetica";
-  src: url("./Fonts/Helvetica/Helvetica-Oblique.woff2") format("woff2"), url("./Fonts/Helvetica/Helvetica-Oblique.woff") format("woff");
+  src: url("/Fonts/Helvetica/Helvetica-Oblique.woff2") format("woff2"), url("/Fonts/Helvetica/Helvetica-Oblique.woff") format("woff");
   font-weight: normal;
   font-style: italic;
   font-display: swap;
@@ -630,7 +630,7 @@ body {
 }
 
 #hero {
-  background: linear-gradient(268deg, rgba(0, 0, 0, 0.38) 0%, rgba(0, 0, 0, 0.4) 100%), url(./image/ORIGENE\ WEB\ HERO\ IMAGE\ 2\ 1.png);
+  background: linear-gradient(268deg, rgba(0, 0, 0, 0.38) 0%, rgba(0, 0, 0, 0.4) 100%), url(./image/ORIGENE_WEB_HERO_IMAGE_2_1.png);
   height: 100dvh;
   background-size: cover;
   background-repeat: no-repeat;
@@ -1081,13 +1081,13 @@ body {
 }
 
 .features-1 {
-  background: linear-gradient(180deg, rgba(0, 0, 0, 0.02) 0%, rgb(0, 0, 0) 85%), url("../public/image/_HQ_0542 2 copy 2 1.png");
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.02) 0%, rgb(0, 0, 0) 85%), url("../public/image/_HQ_0542_2_copy_2_1.png");
   background-size: 110%;
   background-position: top;
 }
 
 .features-2 {
-  background: linear-gradient(180deg, rgba(0, 0, 0, 0.02) 0%, rgb(0, 0, 0) 85%), url("../public/image/_HQ_0592 2 copy 2 1.png");
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.02) 0%, rgb(0, 0, 0) 85%), url("../public/image/_HQ_0592_2_copy_2_1.png");
   background-size: 176%;
   background-position: center;
 }
@@ -1156,7 +1156,7 @@ body {
   width: 100%;
 }
 #section-showcase .section-showcase-1 {
-  background: url("./image/_HQ_0020 copy 2 2.png");
+  background: url("./image/_HQ_0020_copy_2_2.png");
   background-size: 100%;
   background-position: center left;
   background-repeat: no-repeat;
@@ -1167,7 +1167,7 @@ body {
   }
 }
 #section-showcase .section-showcase-2 {
-  background: url("./image/_HQ_0020 copy 2 3.png");
+  background: url("./image/_HQ_0020_copy_2_3.png");
   background-size: 121%;
   background-position: center right;
   background-repeat: no-repeat;

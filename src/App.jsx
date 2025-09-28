@@ -18,7 +18,7 @@ function App() {
   useEffect(() => {
     const timer = setTimeout(() => {
       setIsLoading(false);
-    }, 2500);
+    }, 5000);
 
     return () => clearTimeout(timer);
   }, []);
@@ -28,7 +28,7 @@ function App() {
      {isLoading ? (
       <Loading />
      ) : (
-      <BrowserRouter basename="/Origene/">
+      <BrowserRouter>
       <Routes>
         <Route path="/Origene/" element={<Home />} />
         <Route path="/Origene/shop" element={<Shop />} />

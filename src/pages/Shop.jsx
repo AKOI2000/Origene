@@ -5,7 +5,7 @@ function Shop() {
     <>
       <Navbar scrolled={true} />
       <div id="shop">
-        <h1>Shop is coming, <br /> our developer is on vacation</h1>
+        <h2>Shop is coming soon.</h2>
       </div>
     </>
   );
