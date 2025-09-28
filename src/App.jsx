@@ -28,12 +28,12 @@ function App() {
      {isLoading ? (
       <Loading />
      ) : (
-      <BrowserRouter>
+      <BrowserRouter basename="/Origene/">
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/shop" element={<Shop />} />
-        <Route path="/contact-us" element={<Contact />} />
-        <Route path="/about-us" element={<About />} />
+        <Route path="/Origene/" element={<Home />} />
+        <Route path="/Origene/shop" element={<Shop />} />
+        <Route path="/Origene/contact-us" element={<Contact />} />
+        <Route path="/Origene/about-us" element={<About />} />
         <Route path="*" element={<Home />} />
       </Routes>
      </BrowserRouter>

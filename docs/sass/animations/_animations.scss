@@ -1,0 +1,40 @@
+/* Fade Up */
+@keyframes fadeUp {
+    from { opacity: 0; transform: translateY(10px); -webkit-transform: translateY(10px); -moz-transform: translateY(10px); -ms-transform: translateY(10px); -o-transform: translateY(10px); }
+    to   { opacity: 1; transform: translateY(0); }
+  }
+  
+  /* Fade Left */
+  @keyframes fadeLeft {
+    from { opacity: 0; transform: translateX(-50px); }
+    to   { opacity: 1; transform: translateX(0); }
+  }
+  
+  /* Zoom In */
+  @keyframes zoomIn {
+    from { opacity: 0; transform: scale(0.8); }
+    to   { opacity: 1; transform: scale(1); }
+  }
+
+
+  @keyframes FadeDown {
+    from { opacity: 0; transform: translateY(-10px) ; -webkit-transform: translateY(-10px) ; -moz-transform: translateY(-10px) ; -ms-transform: translateY(-10px) ; -o-transform: translateY(-10px) ; }
+    to { opacity: 1; transform:translateY(0) ; -webkit-transform:translateY(0) ; -moz-transform:translateY(0) ; -ms-transform:translateY(0) ; -o-transform:translateY(0) ; }
+  }
+  
+  .fade-section {
+    opacity: 0; /* hidden by default */
+  }
+  
+  .fade-section.show.fadeUp {
+    animation: fadeUp 0.8s ease-out forwards;
+  }
+  
+  .fade-section.show.fadeLeft {
+    animation: fadeLeft 0.8s ease-out forwards;
+  }
+  
+  .fade-section.show.zoomIn {
+    animation: zoomIn 0.8s ease-out forwards;
+  }
+  

@@ -1,0 +1,168 @@
+@import "../utilities/variable";
+@import "../utilities/mixin";
+@import "../animations/animations";
+
+.nav-container{
+    width: 100%;
+    padding: 2.5rem 0;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    transition: all .2s;
+    -webkit-transition: all .2s;
+    -moz-transition: all .2s;
+    -ms-transition: all .2s;
+    -o-transition: all .2s;
+
+    .header{
+        display: flex;
+        width: 85%;
+        margin: auto;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+        color: #fff;
+
+        .logo-box{
+            flex-basis: 15%;
+
+            @include respond (md) {
+                flex-basis: 25%;
+            }
+
+            
+            @include respond (sm) {
+                flex-basis: 33%;
+            }
+
+             
+            @include respond (xs) {
+                flex-basis: 35%;
+            }
+            img{
+                width: 100%;
+            }
+        }
+        nav{
+            display: flex;
+            justify-content: space-between;
+            // flex-basis: 25%;
+            
+
+            a{
+                &:not(:first-child) {
+                    margin-left: 2.5rem;
+                }
+
+                @include respond (md) {
+                    &:not(:first-child) {
+                        margin-left: 0;
+                    }
+                }
+            }
+            
+            
+            @include respond(md){
+                visibility: hidden;
+                opacity: 0;
+                height: 0;
+                position: absolute;
+                top: 100%;
+                right: 0;
+                width: 100%;
+                transform: translateY(-20px);
+                transition: all .4s;
+                // transform: translateY(-10px);
+            }
+        }
+
+        nav.open{
+            visibility: visible;
+            // animation: fadeDown 0.3s ease-out forwards;
+            transform: translateY(0px);
+            height: auto;
+            opacity: 1;
+            position: absolute;
+            top: 130%;
+            flex-direction: column;
+            background-color: #fff;
+            padding: 3rem 4rem;
+            text-align: right;
+            justify-content: start;
+            //height: 150px;
+            
+            a{
+                color: black;
+                font-size: 2rem;
+                padding: 1rem 0;
+
+                &:not(:last-child) {
+                    margin-bottom: 2rem;
+                }
+            }
+
+            // img{
+            //     width: 90%;
+            //     margin: auto;
+            //     margin-top: 3rem;
+            // }
+        }
+
+
+        nav.close{
+           
+        }
+
+        .icons{
+            display: flex;
+            flex-basis: auto;
+            // justify-content: space-between;
+            // justify-content: center;
+            align-items: center;
+
+            @include respond (xs) {
+                flex-basis: 35%;
+            }
+
+            a{
+                margin-left: 2rem;
+
+                @include respond (sm) {
+                    margin-left: 1.5rem;
+                }
+            }
+
+            
+            #menu{
+                display: none;
+                margin-left: 2rem;
+
+                @include respond (md) {
+                    display: inline-block;
+                    width: auto;
+                }
+
+                @include respond (sm) {
+                    // width: 15%;
+                    margin-left: 1.5rem;
+                }
+            }
+        }
+    }
+}
+
+.scrolled .header {
+    color: #000;
+}
+
+.scrolled {
+    background-color: white !important;
+  
+    color: $color-secondary;
+    /* Or any color you prefer */
+    /* Adjust text color if needed */
+}
+
+.scrolled.nav-container .header nav a, .scrolled.nav-container .icons a .nav-icons{
+    color: $color-secondary !important;
+}

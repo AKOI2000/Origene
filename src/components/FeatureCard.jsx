@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 function FeatureCard({featureHeader, buttonText, paragraphText}) {
   return (
     <>
@@ -18,7 +20,7 @@ function FeatureCard({featureHeader, buttonText, paragraphText}) {
               <h5 className="heading-5 margin-bottom-xsl">{featureHeader}</h5>
               <div className="subtext">
               <p>{paragraphText}</p>
-              <a href="#" className="margin-left-sm"><img src="./image/btn-rounded.png" /></a>
+              <Link to="/Origene/about-us" className="margin-left-sm"><img src="./image/btn-rounded.png" /></Link>
               {/* btn-rounded btn-white  */}
               </div>
           </div>

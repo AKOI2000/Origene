@@ -1,0 +1,29 @@
+.loader {
+    width: 32px;
+    color: #fff;
+    aspect-ratio: 1;
+    // --_g: no-repeat radial-gradient(farthest-side,#000 90%,#0000);
+    --_g: no-repeat radial-gradient(farthest-side,#fff 90%,#fff);
+    background: var(--_g), var(--_g), var(--_g), var(--_g);
+    background-size: 40% 40%;
+    animation: l46 1s infinite;
+  }
+  @keyframes l46 {
+    0%  {background-position: 0 0      ,100% 0,100% 100%,0 100%}
+    40%,
+    50% {background-position: 100% 100%,100% 0,0    0   ,0 100%}
+    90%,
+    100%{background-position: 100% 100%,0 100%,0    0   ,100% 0}
+  }
+
+
+  .loading-screen {
+    position: fixed;
+    inset: 0;
+    background: #4d0909;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+  }

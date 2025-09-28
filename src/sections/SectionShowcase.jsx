@@ -23,7 +23,7 @@ function SectionShowcase() {
           <img src="./image/_HQ_0020 copy 2 2 (1).png"/>
           </div>
           <div className="button-box text-align margin-top-sm">
-            <Button direction={"#"} styles={"btn-black"}>
+            <Button direction={"/Origene/shop"} styles={"btn-black"}>
               Buy now
             </Button>
           </div>
@@ -39,7 +39,7 @@ function SectionShowcase() {
           <img src="./image/_HQ_0020 copy 2 3 (1).png"/>
           </div>
           <div className="button-box text-align margin-top-sm">
-            <Button direction={"#"} styles={"btn-black"}>
+            <Button direction={"/Origene/shop"} styles={"btn-black"}>
               Buy now
             </Button>
           </div>

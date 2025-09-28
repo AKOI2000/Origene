@@ -1,0 +1,92 @@
+@import "../utilities/mixin";
+
+#about{
+    margin-top:  14.9rem;
+   padding: 5rem 5% 4rem;
+
+   @include respond (sm) {
+    margin-top: 9rem;
+   }
+
+   img{
+    width: 100%;
+   }
+
+
+   .about-paragraph{
+        padding: 5rem 15%;
+        text-align: center;
+
+        @include respond (lg) {
+            padding: 5rem 12%;
+        }
+
+        @include respond (md) {
+            padding: 5rem 8%;
+        }
+
+        @include respond (sm) {
+            padding: 5rem 5%;
+        }
+
+        @include respond (xs) {
+            padding: 5rem 3%;
+        }
+
+        p{
+            line-height: 1.8;
+            font-size: 16px;
+            margin-bottom: 2rem;
+        }
+   }
+
+   .about-profile{
+        padding-bottom: 2rem;
+        .profile-img-box{
+            img{
+                margin-bottom: 1rem;
+            }
+        }
+        .profile-caption{
+            font-size: 1.5rem;
+            
+        }
+   }
+
+   .about-quote{
+    padding: 7rem 25%;
+    text-align: center;
+
+    @include respond (lg) {
+        padding: 7rem 17%;
+    }
+
+    @include respond (md) {
+        padding: 7rem 12%;
+    }
+
+    @include respond (sm) {
+        padding: 7rem 7%;
+    }
+
+    @include respond (xs) {
+        padding: 7rem 2%;
+    }
+
+    h4{
+        font-size: 4.5rem;
+        // font-weight: 400;
+        letter-spacing: .5px;
+        margin-bottom: 2rem;
+
+        @include respond (sm) {
+            font-size: 4.2rem;
+        }
+    }
+
+    h5{
+        font-size: 1.4rem;
+        font-weight: 400;
+    }
+   }
+}

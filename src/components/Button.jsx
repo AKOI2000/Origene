@@ -1,6 +1,8 @@
+import { Link } from "react-router-dom"
+
 function Button({direction, children, styles}) {
     return (
-        <a href={direction} className={`btn ${styles}`}>{children}</a>
+        <Link to={direction} className={`btn ${styles}`}>{children}</Link>
     )
 }
 

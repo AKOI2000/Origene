@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'canela';
-    src: url('/public/Fonts/Canela/Canela-Black.woff2') format('woff2'),
-        url('/public/Fonts/Canela/Canela-Black.woff') format('woff');
+    src: url('./Fonts/Canela/Canela-Black.woff2') format('woff2'),
+        url('./Fonts/Canela/Canela-Black.woff') format('woff');
     font-weight: bold;
     font-style: normal;
     font-display: swap;
@@ -9,8 +9,8 @@
 
 @font-face {
     font-family: 'canela';
-    src: url('/public/Fonts/Canela/Canela-Bold.woff2') format('woff2'),
-        url('/public/Fonts/Canela/Canela-Bold.woff') format('woff');
+    src: url('./Fonts/Canela/Canela-Bold.woff2') format('woff2'),
+        url('./Fonts/Canela/Canela-Bold.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -19,8 +19,8 @@
 
 @font-face {
     font-family: 'Helvetica';
-    src: url('/public/Fonts/Helvetica/Helvetica-BoldOblique.woff2') format('woff2'),
-        url('/public/Fonts/Helvetica/Helvetica-BoldOblique.woff') format('woff');
+    src: url('./Fonts/Helvetica/Helvetica-BoldOblique.woff2') format('woff2'),
+        url('./Fonts/Helvetica/Helvetica-BoldOblique.woff') format('woff');
     font-weight: bold;
     font-style: italic;
     font-display: swap;
@@ -29,8 +29,8 @@
 
 @font-face {
     font-family: 'Helvetica';
-    src: url('/public/Fonts/Helvetica/Helvetica-Bold.woff2') format('woff2'),
-        url('/public/Fonts/Helvetica/Helvetica-Bold.woff') format('woff');
+    src: url('./Fonts/Helvetica/Helvetica-Bold.woff2') format('woff2'),
+        url('./Fonts/Helvetica/Helvetica-Bold.woff') format('woff');
     font-weight: bold;
     font-style: normal;
     font-display: swap;
@@ -38,8 +38,8 @@
 
 @font-face {
     font-family: 'Helvetica';
-    src: url('/public/Fonts/Helvetica/Helvetica.woff2') format('woff2'),
-        url('/public/Fonts/Helvetica/Helvetica.woff') format('woff');
+    src: url('./Fonts/Helvetica/Helvetica.woff2') format('woff2'),
+        url('./Fonts/Helvetica/Helvetica.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -48,8 +48,8 @@
 
 @font-face {
     font-family: 'Helvetica';
-    src: url('/public/Fonts/Helvetica/Helvetica-Light.woff2') format('woff2'),
-        url('/public/Fonts/Helvetica/Helvetica-Light.woff') format('woff');
+    src: url('./Fonts/Helvetica/Helvetica-Light.woff2') format('woff2'),
+        url('./Fonts/Helvetica/Helvetica-Light.woff') format('woff');
     font-weight: 300;
     font-style: normal;
     font-display: swap;
@@ -57,8 +57,8 @@
 
 @font-face {
     font-family: 'HelveticaRounded';
-    src: url('/public/Fonts/Helvetica/HelveticaRounded-Bold.woff2') format('woff2'),
-        url('/public/Fonts/Helvetica/HelveticaRounded-Bold.woff') format('woff');
+    src: url('./Fonts/Helvetica/HelveticaRounded-Bold.woff2') format('woff2'),
+        url('./Fonts/Helvetica/HelveticaRounded-Bold.woff') format('woff');
     font-weight: bold;
     font-style: normal;
     font-display: swap;
@@ -66,8 +66,8 @@
 
 @font-face {
     font-family: 'Helvetica';
-    src: url('/public/Fonts/Helvetica/Helvetica-Oblique.woff2') format('woff2'),
-        url('/public/Fonts/Helvetica/Helvetica-Oblique.woff') format('woff');
+    src: url('./Fonts/Helvetica/Helvetica-Oblique.woff2') format('woff2'),
+        url('./Fonts/Helvetica/Helvetica-Oblique.woff') format('woff');
     font-weight: normal;
     font-style: italic;
     font-display: swap;

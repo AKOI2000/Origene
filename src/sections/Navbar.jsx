@@ -13,20 +13,20 @@ function Navbar({ scrolled }) {
       <header className="header">
         <div className="logo-box">
           {scrolled ? (
-            <Link to="/">
-              <img src="/image/ORIGENE HORIZONTAL BLACK.png" alt="Origene" />
+            <Link to="/Origene/">
+              <img src="./image/ORIGENE HORIZONTAL BLACK.png" alt="Origene" />
             </Link>
           ) : (
-            <Link to="/">
-              <img src="/image/ORIGENE HORIZONTAL WHITE.png" alt="Origene" />
+            <Link to="/Origene/">
+              <img src="./image/ORIGENE HORIZONTAL WHITE.png" alt="Origene" />
             </Link>
           )}
         </div>
 
         <nav className={isOpen ? "open" : ""}>
-          <Link to="/shop">Shop</Link>
-          <Link to="/about-us">About Origene</Link>
-          <Link to="/contact-us">Contact us</Link>
+          <Link to="/Origene/shop">Shop</Link>
+          <Link to="/Origene/about-us">About Origene</Link>
+          <Link to="/Origene/contact-us">Contact us</Link>
 
           {/* <img src='./image/ORIGENE HORIZONTAL BLACK.png'/> */}
         </nav>

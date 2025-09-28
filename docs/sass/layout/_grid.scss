@@ -1,0 +1,84 @@
+@import "../utilities/mixin";
+.grid{
+    display: grid;
+    text-align: center;
+}
+
+.grid-3-by-1{
+    grid-template-columns: repeat(3, 1fr);
+
+    @include respond (mds) {
+        grid-template-columns: repeat(1fr);
+        grid-template-rows: repeat(3, min-content);
+    }
+
+    @include respond (sm) {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3, min-content);
+    }
+    
+}
+
+.column-gap-2{
+    column-gap: 2rem;
+}
+
+.column-gap-3{
+    column-gap: 3rem;
+
+    @include respond (mds) {
+        column-gap: 2rem;
+    }
+
+    @include respond (sm) {
+       column-gap: 0;
+       row-gap: 2rem;
+    }
+}
+
+
+.column-gap-5{
+    column-gap: 5rem;
+
+    @include respond (md) {
+        column-gap: 0;
+        row-gap: 5rem;
+    }
+}
+
+.column-gap-6{
+    column-gap: 6rem;
+
+    @include respond (sm) {
+        column-gap: 0;
+        row-gap: 6rem;
+     }
+}
+
+.column-gap-8{
+    column-gap: 8rem;
+
+    @include respond (lg) {
+        column-gap: 3rem;
+    }
+
+    @include respond (md) {
+        column-gap: 0;
+        row-gap: 8rem;
+    }
+
+    @include respond (sm) {
+        column-gap: 0;
+        row-gap: 8rem;
+     }
+}
+
+
+.grid-2-by-1{
+    grid-template-columns: repeat(2, 1fr);
+
+    @include respond (md) {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(2, min-content);
+    }
+}

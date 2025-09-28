@@ -246,56 +246,56 @@ body {
 
 @font-face {
   font-family: "canela";
-  src: url("/public/Fonts/Canela/Canela-Black.woff2") format("woff2"), url("/public/Fonts/Canela/Canela-Black.woff") format("woff");
+  src: url("./Fonts/Canela/Canela-Black.woff2") format("woff2"), url("./Fonts/Canela/Canela-Black.woff") format("woff");
   font-weight: bold;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "canela";
-  src: url("/public/Fonts/Canela/Canela-Bold.woff2") format("woff2"), url("/public/Fonts/Canela/Canela-Bold.woff") format("woff");
+  src: url("./Fonts/Canela/Canela-Bold.woff2") format("woff2"), url("./Fonts/Canela/Canela-Bold.woff") format("woff");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "Helvetica";
-  src: url("/public/Fonts/Helvetica/Helvetica-BoldOblique.woff2") format("woff2"), url("/public/Fonts/Helvetica/Helvetica-BoldOblique.woff") format("woff");
+  src: url("./Fonts/Helvetica/Helvetica-BoldOblique.woff2") format("woff2"), url("./Fonts/Helvetica/Helvetica-BoldOblique.woff") format("woff");
   font-weight: bold;
   font-style: italic;
   font-display: swap;
 }
 @font-face {
   font-family: "Helvetica";
-  src: url("/public/Fonts/Helvetica/Helvetica-Bold.woff2") format("woff2"), url("/public/Fonts/Helvetica/Helvetica-Bold.woff") format("woff");
+  src: url("./Fonts/Helvetica/Helvetica-Bold.woff2") format("woff2"), url("./Fonts/Helvetica/Helvetica-Bold.woff") format("woff");
   font-weight: bold;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "Helvetica";
-  src: url("/public/Fonts/Helvetica/Helvetica.woff2") format("woff2"), url("/public/Fonts/Helvetica/Helvetica.woff") format("woff");
+  src: url("./Fonts/Helvetica/Helvetica.woff2") format("woff2"), url("./Fonts/Helvetica/Helvetica.woff") format("woff");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "Helvetica";
-  src: url("/public/Fonts/Helvetica/Helvetica-Light.woff2") format("woff2"), url("/public/Fonts/Helvetica/Helvetica-Light.woff") format("woff");
+  src: url("./Fonts/Helvetica/Helvetica-Light.woff2") format("woff2"), url("./Fonts/Helvetica/Helvetica-Light.woff") format("woff");
   font-weight: 300;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "HelveticaRounded";
-  src: url("/public/Fonts/Helvetica/HelveticaRounded-Bold.woff2") format("woff2"), url("/public/Fonts/Helvetica/HelveticaRounded-Bold.woff") format("woff");
+  src: url("./Fonts/Helvetica/HelveticaRounded-Bold.woff2") format("woff2"), url("./Fonts/Helvetica/HelveticaRounded-Bold.woff") format("woff");
   font-weight: bold;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "Helvetica";
-  src: url("/public/Fonts/Helvetica/Helvetica-Oblique.woff2") format("woff2"), url("/public/Fonts/Helvetica/Helvetica-Oblique.woff") format("woff");
+  src: url("./Fonts/Helvetica/Helvetica-Oblique.woff2") format("woff2"), url("./Fonts/Helvetica/Helvetica-Oblique.woff") format("woff");
   font-weight: normal;
   font-style: italic;
   font-display: swap;
@@ -634,7 +634,7 @@ body {
 }
 
 #hero {
-  background: linear-gradient(268deg, rgba(0, 0, 0, 0.38) 0%, rgba(0, 0, 0, 0.4) 100%), url(../public/image/ORIGENE\ WEB\ HERO\ IMAGE\ 2\ 1.png);
+  background: linear-gradient(268deg, rgba(0, 0, 0, 0.38) 0%, rgba(0, 0, 0, 0.4) 100%), url(./image/ORIGENE\ WEB\ HERO\ IMAGE\ 2\ 1.png);
   height: 100dvh;
   background-size: cover;
   background-repeat: no-repeat;
@@ -1168,7 +1168,7 @@ body {
   width: 100%;
 }
 #section-showcase .section-showcase-1 {
-  background: url("../public/image/_HQ_0020 copy 2 2.png");
+  background: url("./image/_HQ_0020 copy 2 2.png");
   background-size: 100%;
   background-position: center left;
   background-repeat: no-repeat;
@@ -1179,7 +1179,7 @@ body {
   }
 }
 #section-showcase .section-showcase-2 {
-  background: url("../public/image/_HQ_0020 copy 2 3.png");
+  background: url("./image/_HQ_0020 copy 2 3.png");
   background-size: 121%;
   background-position: center right;
   background-repeat: no-repeat;
