@@ -13,7 +13,7 @@ function Contact() {
 
         <div className="grid grid-3-by-1 column-gap-3">
           <ContactCard
-            img={'./image/icons/whatsapp us.svg'}
+            img={'./image/icons/whatsapp_us.svg'}
             header={"message us"}
             linkText={"Send us a message on WhatsApp"}
             linkAction={"https://wa.me/+2349019287665"}
@@ -21,7 +21,7 @@ function Contact() {
             workHours={" 7am - 10pm GMT +1"}
           />
           <ContactCard
-           img={'./image/icons/call us.svg'}
+           img={'./image/icons/call_us.svg'}
             header={"call us"}
             span={"Call us on"}
             linkText={"+2349019287665"}
@@ -31,7 +31,7 @@ function Contact() {
           />
 
           <ContactCard
-            img={'./image/icons/email us.svg'}
+            img={'./image/icons/email_us.svg'}
             header={"email us"}
             linkText={" Send us an email here Anytime"}
             workDays={"— we typically respond"}
