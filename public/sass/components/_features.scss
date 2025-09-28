@@ -1,0 +1,63 @@
+@import "../utilities/variable";
+@import "../utilities/mixin";
+
+
+.feature-box{
+    margin: auto;
+    // max-height: fit-content;
+}
+
+.features{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 8% 1fr 8%;
+    grid-template-rows: repeat(3, 1fr);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    height: 60rem;
+
+
+    .text-box{
+        grid-column: 2/3;
+        grid-row: 3/4;
+        text-align: left;
+        margin-top: 4rem;
+    }
+
+    .subtext{
+        display: flex;
+        align-items: center;
+        // justify-content: space-between;
+    }
+}
+
+.features-1{
+    background: linear-gradient(180deg,rgba(0, 0, 0, 0.02) 0%, rgba(0, 0, 0, 1) 85%), url('../public/image/_HQ_0542 2 copy 2 1.png');
+    background-size: 110%;
+    background-position: top;
+}
+
+.features-2{
+    background: linear-gradient(180deg,rgba(0, 0, 0, 0.02) 0%, rgba(0, 0, 0, 1) 85%), url('../public/image/_HQ_0592\ 2\ copy\ 2\ 1.png');
+    background-size: 176%;
+    background-position: center;
+
+    a{
+        @include respond (mds) {
+            display: none;
+        }
+    }
+
+   
+
+    @include respond (lg) {
+        background-size: 210%;
+    }
+
+    @include respond (md) {
+        background-size: 176%;
+    }
+}

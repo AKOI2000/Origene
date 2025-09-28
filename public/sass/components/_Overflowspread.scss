@@ -1,0 +1,81 @@
+@import '../utilities/variable';
+@import '../utilities/mixin';
+
+.quality-spread{
+    display: grid;
+    grid-template-rows: 1fr;
+    overflow: hidden;
+    font-family: $font-text;
+
+
+    .flex-container {
+        white-space: nowrap;    
+        overflow: hidden;         
+        display: flex;
+        width: 100%;
+        justify-content: center;            
+        gap: 3rem;     
+        grid-row: 1/-1;
+        grid-column: 1/-1;
+
+        // @include respond (xl) {
+        //     width: 125%;
+        //     margin-left: -14rem;
+        // }
+
+        // @include respond (lg) {
+        //     width: 145%;
+        //     margin-left: -36rem;
+        // }
+
+        // @include respond (mdl) {
+        //     width: 167%;
+        //     margin-left: -27rem;
+        // }
+
+        // @include respond (md) {
+        //     width: 175%;
+        //     margin-left: -37rem;
+        // }
+
+        // @include respond (sm) {
+        //     width: 315%;
+        //     margin-left: -21.75rem;
+        // }
+
+        // @include respond (xs) {
+        //     width: 352%;
+        //     margin-left: -21rem;
+        // }
+
+        .flex-items{
+            font-size: 1.3rem;
+            display: inline-block; 
+            flex-shrink: 0; 
+        }
+        
+    }
+
+    .white-gradient{
+        content: "";
+        height: 29.6px;
+        width: 100%;
+        background: linear-gradient(268deg,rgba(255, 255, 255, 0.99) 0%, rgba(255, 255, 255, 0.8) 10%, rgba(255, 255, 255, 0.00) 50%, rgba(255, 255, 255, 0.8) 90%, rgba(255, 255, 255, 0.99) 100%);
+        grid-row: 1/-1;
+        grid-column: 1/-1;
+        z-index: 2;
+    }
+}
+
+
+
+
+
+
+
+
+  
+  
+
+
+

@@ -1,0 +1,74 @@
+@import "./mixin";
+.margin-top-xxs{
+    margin-top: .5rem;
+}
+
+.margin-top-xs{
+    margin-top: 1rem;
+}
+.margin-top-sm{
+    margin-top: 2rem;
+}
+.margin-top-md{
+    margin-top: 4rem;
+}
+
+.margin-top-lg{
+    margin-top: 8rem;
+}
+
+.margin-top-xl{
+    margin-top: 10rem;
+}
+
+
+.margin-left-sm{
+    margin-left: 2.5rem;
+}
+
+.margin-bottom-xs{
+    margin-bottom: .5rem;
+}
+
+.margin-bottom-xsl{
+    margin-bottom: 1rem;
+}
+
+
+.margin-bottom-sm{
+    margin-bottom: 2rem;
+}
+
+
+.margin-bottom-md{
+    margin-bottom: 4rem;
+}
+
+
+.margin-bottom-lg{
+    margin-bottom: 8rem;
+}
+
+.margin-bottom-xl{
+    margin-bottom: 10rem;
+}
+
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-align{
+    text-align: right;
+
+    @include respond (sm) {
+        text-align: center;
+    }
+}
+
+
+.height-90{
+    height: 90.9rem;
+}

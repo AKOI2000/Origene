@@ -1,0 +1,23 @@
+@import "../utilities/mixin";
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+
+    @include lgrespond (xxxl) {
+        font-size: 125%;
+    }
+
+    @include respond (md) {
+        font-size: 50%;
+    }
+}
+
+a{
+    text-decoration: none;
+}

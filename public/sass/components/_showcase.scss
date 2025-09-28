@@ -1,0 +1,105 @@
+@import "../utilities/mixin";
+
+#section-showcase{
+    aspect-ratio: 1920 / 1561;
+
+    @include respond (sm) {
+        aspect-ratio: 4 / 5;
+        padding: 3rem 5rem;
+    }
+    
+   
+    .showcase-text_box{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        // top: 27rem;
+        top: 23%;
+        // right: 10rem;
+        right: 6%;
+        justify-content: right;
+        justify-items: right;
+
+
+        @include respond (lg) {
+            right: 4%;
+        }
+
+        @include respond (sm) {
+            top: 0;
+            right: 0;
+            width: 100%;
+            justify-content: center;
+            justify-items: center;
+            text-align: center;
+            padding: 0 1rem;
+            // position: relative;
+        }
+
+        .img-box{
+            display: none;
+            width: 80%;
+            margin: auto;
+            margin-top: 2rem;
+
+            @include respond (sm) {
+                display: inline-block;
+            }
+    
+    
+            img{
+                width: 100%;
+            }
+        }
+    }
+
+    .section-showcase-1{
+        background: url('../public/image/_HQ_0020\ copy\ 2\ 2.png');
+        background-size: 100%;
+        background-position: center left;
+        background-repeat: no-repeat;
+        // position: relative;
+
+        @include respond (sm) {
+            background: #fff;
+        }
+    }
+    
+    .section-showcase-2{
+        background: url('../public/image/_HQ_0020\ copy\ 2\ 3.png');
+        background-size: 121%;
+        background-position: center right;
+        background-repeat: no-repeat;
+        // position: relative;
+
+        @include respond (sm) {
+            background: #fff;
+        }
+    }
+
+    .fade {
+        opacity: 0;
+        transition: opacity 1s ease-in-out;
+        position: absolute; /* stack them on top of each other */
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+
+        @include respond (sm){
+            top: auto;
+        }
+    }
+      
+    .fade.active {
+        opacity: 1;
+        z-index: 1;
+    }
+}
+
+
+
+
+.showcase-container {
+    position: relative;
+}

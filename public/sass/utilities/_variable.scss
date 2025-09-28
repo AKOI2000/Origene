@@ -1,0 +1,25 @@
+
+//// fonts
+$font-display: 'canela';
+$font-text-rounded: 'HelveticaRounded';
+$font-text: 'Helvetica';
+
+/// colors
+$color-primary: #fff;
+$color-secondary: #000;
+$color-tertiary: #765223;
+$color-grey: #efefee;
+
+$breakpoints: (
+  xs: 360px,
+  smd: 400px,
+  sm: 480px,
+  mds: 608px,
+  mdm: 650px,
+  md: 768px,
+  mdl: 880px,
+  lg: 1024px,
+  xl: 1280px,
+  xxl: 1440px,
+  xxxl: 2000px
+);
