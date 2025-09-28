@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "deploy": "vite build && rm -rf docs && mv dist docs && git add . && git commit -m 'changes to the pictures' && git push origin main",
     "preview": "vite preview",
     "sass-dev": "sass --watch public/sass/main.scss:src/index.css"
   },
