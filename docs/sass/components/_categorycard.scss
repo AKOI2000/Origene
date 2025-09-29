@@ -5,15 +5,15 @@
 .category-card {
   width: 100%;
 
-  &:hover .category-card_img-box .subtext {
-    display: flex;
-    animation: fadeUp 0.3s ease-out forwards;
-    -webkit-animation: fadeUp 0.3s ease-out forwards;
-}
+//   &:hover .category-card_img-box .subtext {
+//     display: flex;
+//     animation: fadeUp 0.3s ease-out forwards;
+//     -webkit-animation: fadeUp 0.3s ease-out forwards;
+// }
 
-  &:hover .category-card_text-box p {
-    display: none;
-  }
+//   &:hover .category-card_text-box p {
+//     display: none;
+//   }
 
   .category-card_img-box {
     width: 100%;

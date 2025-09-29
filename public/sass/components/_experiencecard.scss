@@ -6,9 +6,9 @@
     padding: 3rem 5rem;
     display: grid;
     grid-template-rows: 1fr 2fr;
-    box-shadow: -1px 6px 28px -5px rgba(0,0,0,0.15);
-    -webkit-box-shadow: -1px 6px 28px -5px rgba(0,0,0,0.15);
-    -moz-box-shadow: -1px 6px 28px -5px rgba(0,0,0,0.15);
+    // box-shadow: -1px 6px 28px -5px rgba(0,0,0,0.15);
+    // -webkit-box-shadow: -1px 6px 28px -5px rgba(0,0,0,0.15);
+    // -moz-box-shadow: -1px 6px 28px -5px rgba(0,0,0,0.15);
 
     @include respond (lg) {
         padding: 3rem 3rem;
@@ -29,6 +29,7 @@
     .experience-text{
         font-weight: 300;
         text-align: center;
+        line-height: 1.3;
         h4{
             font-size: 1.8rem;
             font-weight: 300;
