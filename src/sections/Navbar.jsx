@@ -14,11 +14,11 @@ function Navbar({ scrolled }) {
         <div className="logo-box">
           {scrolled ? (
             <Link to="/Origene/">
-              <img src="./image/ORIGENE_HORIZONTAL_BLACK.png" alt="Origene" />
+              <img src="./image/ORIGENE_HORIZONTAL_BLACK.webp" alt="Origene" />
             </Link>
           ) : (
             <Link to="/Origene/">
-              <img src="./image/ORIGENE_HORIZONTAL_WHITE.png" alt="Origene" />
+              <img src="./image/ORIGENE_HORIZONTAL_WHITE.webp" alt="Origene" />
             </Link>
           )}
         </div>

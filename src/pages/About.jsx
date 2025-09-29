@@ -11,7 +11,7 @@ function About() {
         </div>
         <div className="about-imge__img-box">
           <img
-            src="./image/About_Main.png"
+            src="./image/About_Main.webp"
             alt="Origene's Co-founders, Oluwatobi and Adewale Hassan"
           />
         </div>
@@ -49,7 +49,7 @@ function About() {
           <div className="about-profile">
             <div className="profile-img-box">
               <img
-                src="./image/About_Adewale.png"
+                src="./image/About_Adewale.webp"
                 alt="Origene Co-founder, Adewale Hassan"
               />
             </div>
@@ -59,7 +59,7 @@ function About() {
           <div className="about-profile">
             <div className="profile-img-box">
               <img
-                src="./image/About_Hassan.png"
+                src="./image/About_Hassan.webp"
                 alt="Origene Co-founder, Oluwatobi Hassan"
               />
             </div>

@@ -77,7 +77,7 @@ function Footer() {
         </div>
 
         <div className="img-box">
-            <img src="./image/Group.png"/>
+            <img src="./image/Group.webp"/>
         </div>
       </div>
     </footer>

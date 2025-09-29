@@ -1,33 +1,8 @@
 // Preload all critical assets (images + fonts)
 async function preloadAssets() {
-    await Promise.all([preloadImages(), preloadFonts()]);
+    await Promise.all(preloadFonts());
   }
   
-  // Preload images safely
-  async function preloadImages() {
-    const imageUrls = [
-      "/image/ORIGENE_WEB_HERO_IMAGE_2_1.png",
-      "/image/About_Main.png",
-      "/image/HQ_0020_copy_2_3.png",
-      "/image/ORIGENE_HORIZONTAL_BLACK.png",
-      "/image/HQ_0521_copy_2_1_(4).png",
-      "/image/cassie_carousel.jpg",
-      "/image/HQ_0542_2_copy_2_1.png",
-      "/image/HQ_0521_copy_2_1_(5).png",
-    ];
-  
-    const promises = imageUrls.map(
-      (src) =>
-        new Promise((resolve) => { // resolve even on error
-          const img = new Image();
-          img.src = src;
-          img.onload = resolve;
-          img.onerror = resolve;
-        })
-    );
-  
-    await Promise.all(promises);
-  }
   
   // Preload fonts
   async function preloadFonts() {
