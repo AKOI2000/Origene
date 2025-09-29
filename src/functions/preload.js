@@ -7,9 +7,13 @@ async function preloadAssets() {
   async function preloadImages() {
     const imageUrls = [
       "/image/ORIGENE_WEB_HERO_IMAGE_2_1.png",
-      "/images/About_Main.png",
-      "/images/HQ_0020_copy_2_3.png",
-      "/images/ORIGENE_HORIZONTAL_BLACK.png",
+      "/image/About_Main.png",
+      "/image/HQ_0020_copy_2_3.png",
+      "/image/ORIGENE_HORIZONTAL_BLACK.png",
+      "/image/HQ_0521_copy_2_1_(4).png",
+      "/image/cassie_carousel.jpg",
+      "/image/HQ_0542_2_copy_2_1.png",
+      "/image/HQ_0521_copy_2_1_(5).png",
     ];
   
     const promises = imageUrls.map(
