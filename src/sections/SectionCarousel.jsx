@@ -3,7 +3,7 @@ import Carousel from '../components/Carousel'
 function SectionCarousel() {
     return (
         <div id="section-carousel">
-             <Carousel img1={`${import.meta.env.BASE_URL}/image/_HQ_0521_copy_2_1_(4).png`} img2={`${import.meta.env.BASE_URL}/image/cassie_carousel.jpg`} img3={`${import.meta.env.BASE_URL}/image/_HQ_0542_2_copy_2_1.png`} img4={`${import.meta.env.BASE_URL}/image/_HQ_0521_copy_2_1_(5).png`}/>
+             <Carousel img1={`${import.meta.env.BASE_URL}/image/HQ_0521_copy_2_1_(4).png`} img2={`${import.meta.env.BASE_URL}/image/cassie_carousel.jpg`} img3={`${import.meta.env.BASE_URL}/image/HQ_0542_2_copy_2_1.png`} img4={`${import.meta.env.BASE_URL}/image/HQ_0521_copy_2_1_(5).png`}/>
              {/* ${import.meta.env.BASE_URL} */}
         </div>
     )

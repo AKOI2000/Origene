@@ -5,6 +5,7 @@ import About from "./pages/About";
 import Shop from "./pages/Shop";
 import Loading from "./components/Loading";
 import { useState, useEffect } from "react"; 
+import { preloadWithTimeout } from "./functions/preload";
 
 function App() {
   const [isLoading, setIsLoading] = useState(true);
@@ -16,12 +17,20 @@ function App() {
   // }, []);
   
   useEffect(() => {
-    const timer = setTimeout(() => {
-      setIsLoading(false);
-    }, 5000);
-
-    return () => clearTimeout(timer);
+    let isMounted = true;
+  
+    const load = async () => {
+      await preloadWithTimeout(5000); // preloads images + fonts, max 7s
+      if (isMounted) setIsLoading(false);
+    };
+  
+    load();
+  
+    return () => {
+      isMounted = false; // prevents state update if component unmounts
+    };
   }, []);
+  
  return (
     <div>
       <div>
