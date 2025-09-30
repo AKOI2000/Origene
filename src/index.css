@@ -514,6 +514,7 @@ body {
 }
 .footer-links .help a, .footer-links .company a, .footer-links .legal a {
   text-decoration: underline;
+  text-transform: capitalize;
 }
 .footer-links .legal {
   margin-left: -7rem;
@@ -1443,7 +1444,7 @@ body {
   }
 }
 #section-origene .img-box {
-  width: 100%;
+  width: 90%;
   margin: auto;
   display: flex;
   justify-content: center;

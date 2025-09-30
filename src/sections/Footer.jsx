@@ -3,9 +3,8 @@ import {
   faFacebook,
   faInstagram,
   faYoutube,
+  faXTwitter
 } from "@fortawesome/free-brands-svg-icons";
-import { faX } from "@fortawesome/free-solid-svg-icons";
-
 function Footer() {
   return (
     <footer className="footer">
@@ -71,7 +70,7 @@ function Footer() {
           <div>
             <a href="#"><FontAwesomeIcon className="footer-icons" icon={faFacebook} /></a>
             <a href="#"><FontAwesomeIcon className="footer-icons" icon={faInstagram} /></a>
-            <a href="#"><FontAwesomeIcon className="footer-icons" icon={faX} /></a>
+            <a href="#"><FontAwesomeIcon className="footer-icons" icon={faXTwitter} /></a>
             <a href="#"><FontAwesomeIcon className="footer-icons" icon={faYoutube} /></a>
           </div>
         </div>
