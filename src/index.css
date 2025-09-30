@@ -428,16 +428,28 @@ body {
 .button-box {
   width: 100%;
 }
+.button-box .btn {
+  transition: all 0.2s;
+}
+.button-box .btn:hover {
+  transform: scale(0.94);
+}
 
 .btn-white {
   color: #000;
   background-color: #fff;
-  transition: all 0.2s;
 }
 
 .btn-black {
   color: #fff;
   background-color: #000;
+}
+
+.features-btn {
+  transition: all 0.2s;
+}
+.features-btn:hover {
+  transform: scale(0.94);
 }
 
 @media (max-width: 480px) {
@@ -746,12 +758,17 @@ body {
 }
 
 #hero {
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.3) 100%), url("/image/ORIGENE_WEB_HERO_IMAGE_2_1.png");
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.3) 100%), url("/image/ORIGENE-HERO-IMAGE.webp");
   height: calc(100dvh + 3rem);
-  background-size: cover;
+  background-size: 105%;
   background-repeat: no-repeat;
   background-position: top center;
   font-family: "Helvetica";
+}
+@media (max-width: 768px) {
+  #hero {
+    background-size: cover;
+  }
 }
 #hero .hero-box {
   display: flex;
@@ -1357,7 +1374,7 @@ body {
   display: flex;
   flex-direction: column;
   position: absolute;
-  top: 23%;
+  top: 30%;
   right: 6%;
   justify-content: right;
   justify-items: right;
@@ -1772,7 +1789,7 @@ body {
   padding-bottom: 2rem;
 }
 #about .about-profile .femi {
-  background: url("./image/FEMI—SINGLE.webp");
+  background: url("/image/FEMI—SINGLE.webp");
   aspect-ratio: 1000/1250;
   background-size: 185%;
   background-position: center;
@@ -1781,7 +1798,7 @@ body {
   display: none;
 }
 #about .about-profile .tobi {
-  background: url("./image/TOBI—SINGLE.webp");
+  background: url("/image/TOBI—SINGLE.webp");
   aspect-ratio: 1000/1250;
   background-size: 195%;
   background-position: center;

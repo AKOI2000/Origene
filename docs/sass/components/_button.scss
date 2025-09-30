@@ -85,12 +85,19 @@
 .button-box{
     width: 100%;
     // height: 7.1rem;
+    .btn{
+        transition: all .2s;
+
+        &:hover{
+            transform: scale(0.94);
+        }
+    }
 }
 
 .btn-white{
     color: $color-secondary;
     background-color: $color-primary;
-    transition: all .2s;
+    // transition: all .2s;
 
     // &:hover{
     //     color: $color-primary;
@@ -101,4 +108,19 @@
 .btn-black{
     color: $color-primary;
     background-color: $color-secondary;
+    // transition: all .2s;
+
+    // &:hover{
+    //     color: $color-secondary;
+    //     background-color: $color-primary;
+    // }
+}
+
+
+.features-btn{
+    transition: all .2s;
+
+    &:hover{
+        transform: scale(0.94);
+    }
 }
