@@ -1,9 +1,9 @@
 import Carousel from '../components/Carousel'
 
-function SectionCarousel({isLoading}) {
+function SectionCarousel() {
     return (
         <div id="section-carousel">
-             <Carousel img1={`${import.meta.env.BASE_URL}/image/HQ_0521_copy_2_1_(4).webp`} img2={`${import.meta.env.BASE_URL}/image/cassie_carousel.webp`} img3={`${import.meta.env.BASE_URL}/image/HQ_0542_2_copy_2_1.webp`} img4={`${import.meta.env.BASE_URL}/image/HQ_0521_copy_2_1_(5).webp`} isLoading={isLoading}/>
+             <Carousel img1={`${import.meta.env.BASE_URL}/image/HQ_0521_copy_2_1_(4).webp`} img2={`${import.meta.env.BASE_URL}/image/cassie_carousel.webp`} img3={`${import.meta.env.BASE_URL}/image/HQ_0542_2_copy_2_1.webp`} img4={`${import.meta.env.BASE_URL}/image/HQ_0521_copy_2_1_(5).webp`} isLoading={false}/>
              {/* ${import.meta.env.BASE_URL} */}
         </div>
     )

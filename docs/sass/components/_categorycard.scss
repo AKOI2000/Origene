@@ -31,13 +31,10 @@
     .subtext {
       //background-color: rgba(255, 255, 255, 0.3);
       display: none;
-      //display: flex;
-      justify-content: space-between;
-      align-items: center;
       backdrop-filter: blur(30px);
       grid-row: 2/3;
       grid-column: 1/2;
-      padding: 1rem 1rem;
+      padding: 1rem 3rem;
       font-size: 1.4rem;
       color: $color-primary;
       font-weight: bold;
@@ -52,16 +49,17 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        font-size: 2rem;
-        padding: 1rem 2rem;
+        font-size: 2.3rem;
+        font-weight: 300;
+        padding: 1rem 3rem;
       }
 
       @include respond(xs) {
-        font-size: 1.7rem;
+        font-size: 2rem;
       }
 
       a {
-        width: 13%;
+        width: 10%;
 
         img {
           width: 100%;

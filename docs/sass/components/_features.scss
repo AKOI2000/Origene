@@ -29,23 +29,28 @@
 
     .subtext{
         display: flex;
-        align-items: center;
+        // align-items: center;
         // justify-content: space-between;
     }
 }
 
 .features-1{
-    background: linear-gradient(180deg,rgba(0, 0, 0, 0.02) 0%, rgba(0, 0, 0, .95) 85%), url('/image/HQ_0542_2_copy_2_1.webp');
+    background: url('/image/HQ_0542_2_copy_2_1.webp');
     background-size: 110%;
     background-position: top;
 }
 
 .features-2{
-    background: linear-gradient(180deg,rgba(0, 0, 0, 0.02) 0%, rgba(0, 0, 0, .95) 85%), url('/image/HQ_0592_2_copy_2_1.webp');
+    background: linear-gradient(180deg,rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 1) 100%), url('/image/HQ_0592_2_copy_2_1.webp');
     background-size: 176%;
     background-position: center;
 
     a{
+        width: 15%;
+
+        img{
+            width: 100%;
+        }
         @include respond (mds) {
             display: none;
         }

@@ -76,10 +76,10 @@ function Carousel({ img1, img2, img3, img4, isLoading }) {
   return (
     <div className="carousel-wrapper margin-top-md">
       <button className="carousel-btn prev" onClick={prev}>
-        ❮
+        <img src="image/button_right.svg" />
       </button>
       <button className="carousel-btn next" onClick={next}>
-        ❯
+       <img src="image/Button_right_arrow_label.png" />
       </button>
 
       <div className="gallery" ref={flickityNode}>

@@ -12,17 +12,18 @@ import { useState, useEffect } from 'react';
 
 
 
-function Home({isLoading}) {
+function Home() {
   const [scrolled, setScrolled] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
-      const section2 = document.getElementById("section-categories");
+      const section2 = document.getElementById("hero");
       if (!section2) return;
 
       const section2Top = section2.getBoundingClientRect().top;
+      console.log(section2Top);
 
-      if (section2Top <= 0) {
+      if (section2Top < 0) {
         setScrolled(true);
       } else {
         setScrolled(false);
@@ -42,7 +43,7 @@ function Home({isLoading}) {
       <Navbar scrolled={scrolled}/>
       <Hero/>
       <SectionCategory />
-      <SectionCarousel isLoading={isLoading} />
+      <SectionCarousel/>
       <SectionShowcase /> 
       <SectionExperience />
       <SectionFeatures />
