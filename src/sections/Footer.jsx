@@ -68,10 +68,10 @@ function Footer() {
           <p>© 2025 Origene Fashion - All rights reserved.</p>
 
           <div>
-            <a href="#"><FontAwesomeIcon className="footer-icons" icon={faFacebook} /></a>
-            <a href="#"><FontAwesomeIcon className="footer-icons" icon={faInstagram} /></a>
-            <a href="#"><FontAwesomeIcon className="footer-icons" icon={faXTwitter} /></a>
-            <a href="#"><FontAwesomeIcon className="footer-icons" icon={faYoutube} /></a>
+            <a href="#" target="_blank"><FontAwesomeIcon className="footer-icons" icon={faFacebook} /></a>
+            <a href="https://www.instagram.com/origene_fashion" target="_blank"><FontAwesomeIcon className="footer-icons" icon={faInstagram} /></a>
+            <a href="https://x.com/origene_fashion" target="_blank"><FontAwesomeIcon className="footer-icons" icon={faXTwitter} /></a>
+            <a href="#" target="_blank"><FontAwesomeIcon className="footer-icons" icon={faYoutube}  /></a>
           </div>
         </div>
 

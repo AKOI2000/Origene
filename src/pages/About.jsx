@@ -16,44 +16,34 @@ function About() {
           />
 
           <img className="main-mobile"
-            src="./image/about-main-mobile.png"
+            src="./image/About-Us.webp"
             alt="Origene's Co-founders, Oluwatobi and Adewale Hassan"
           />
         </div>
 
         <div className="about-paragraph">
           <p>
-            We grew up sharing everything. Toys, books, clothes, even sketches
-            in the corners of our notebooks. What began as simple brotherhood
-            became a rhythm. One of us would draw, the other would refine. One
-            would build, the other would shape.
+          My brother and I grew up sharing everything. Toys, clothes, and ideas that presented themselves as sketches in the corners of our notebooks, another thing we shared. What began as the simple common heritage of brotherhood neither of us had any choice in became a rhythm, each day growing more precise. 
           </p>
           <p>
-            Design was never a decision. It was the language we spoke before we
-            had the words. From childhood drawings to experiments with fabric,
-            we learned to make sense of the world by creating something from it.
+          One of us would draw and the other would refine. One would build and the other would shape and grow. Every step, every choice, every decision was complemented by the other, needing no thought or extended exchange to achieve perfection.
+          </p>
+          <p>Design was never a decision. It was the language we spoke before words formed in our mouths. From childhood drawings to experiments with fabric, we learned to make sense of the world by creating something from it.</p>
+          <p>
+          Origene is the manifestation of that history, rhythm and growth.</p>
+          <p>
+           It is the culmination of the paths of <strong>Adewale Hassan</strong> and <strong>Oluwatobi Hassan</strong>, one shaped by a decade mastering fashion design and the secrets of its empire, and the other forged through design, brand building and years of turning ideas into structured businesses. 
           </p>
           <p>
-            {" "}
-            Origene is the extension of that history. It brings together the
-            paths of <strong>Adewale Hassan</strong> and{" "}
-            <strong>Oluwatobi Hassan</strong>. One shaped by a decade inside
-            fashion and illustration. The other forged through design, brand
-            building, and the discipline of turning ideas into structure.
-            Together, we have built Origene as the continuation of a story that
-            began long before the name existed.
-          </p>
-          <p>
-            What we once shared between two brothers, we now offer through
-            Origene — a house built for others to share in.
+          Together, my brother and I have built Origene as the extension of a story that began long before the name existed. What we once shared as brothers, we now offer through Origene - a house, a concept and an experience brought to life for others to share in. 
           </p>
         </div>
 
         <div className="grid grid-2-by-1 column-gap-5">
           <div className="about-profile">
-            <div className="profile-img-box">
+            <div className="profile-img-box femi">
               <img
-                src="./image/About_Adewale.webp"
+                src="./image/FEMI—SINGLE.webp"
                 alt="Origene Co-founder, Adewale Hassan"
               />
             </div>
@@ -61,9 +51,9 @@ function About() {
           </div>
 
           <div className="about-profile">
-            <div className="profile-img-box">
+            <div className="profile-img-box tobi">
               <img
-                src="./image/About_Hassan.webp"
+                src="./image/TOBI—SINGLE.webp"
                 alt="Origene Co-founder, Oluwatobi Hassan"
               />
             </div>
@@ -73,8 +63,7 @@ function About() {
 
         <div className="about-quote">
           <h4>
-            “We shared <br/>everything as<br/> kids, now we<br/> want to share <br/>our craft with<br/> 
-             the world”
+            “We shared <br/>everything as<br/> kids, now we<br/> want to share <br/>our craft with<br/> the world”
           </h4>
 
           <h5> OLUWATOBI HASSAN</h5>

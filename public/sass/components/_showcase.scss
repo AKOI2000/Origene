@@ -1,7 +1,7 @@
 @import "../utilities/mixin";
 
 #section-showcase{
-    aspect-ratio: 1920 / 1561;
+    aspect-ratio: 1920 / 1251;
 
     @include respond (sm) {
         aspect-ratio: 5 / 7;
@@ -54,7 +54,7 @@
     }
 
     .section-showcase-1{
-        background: url('/image/HQ_0020_copy_2_2.webp');
+        background: url('./image/cassi—desktop.webp');
         background-size: 100%;
         background-position: center left;
         background-repeat: no-repeat;
@@ -66,8 +66,8 @@
     }
     
     .section-showcase-2{
-        background: url('/image/HQ_0020_copy_2_3.webp');
-        background-size: 121%;
+        background: url('/image/iremide—desktop.webp');
+        background-size: 100%;
         background-position: center right;
         background-repeat: no-repeat;
         // position: relative;

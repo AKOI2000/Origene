@@ -33,8 +33,8 @@ function Contact() {
           <ContactCard
             img={'./image/icons/email_us.svg'}
             header={"email us"}
-            linkText={" Send us an email here Anytime"}
-            workDays={"— we typically respond"}
+            linkText={" Send us an email here"}
+            workDays={"Anytime— we typically respond"}
             workHours={"within 24 hours."}
           />
         </div>

@@ -1,10 +1,10 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 
-function ExperienceCard({headingText, paragraphText, iconType}) {
+function ExperienceCard({headingText, paragraphText, iconType, className}) {
     return (
         <div className="experience-card margin-top-md">
-            <div className='img-box'>
+            <div className={`img-box ${className ? "icon-box" : ""}`}>
                 <img src={iconType} />
             </div>
             <div className='experience-text margin-top-xs'>

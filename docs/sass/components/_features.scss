@@ -19,16 +19,20 @@
     -o-border-radius: 5px;
     height: 60rem;
 
+    @include respond (sm) {
+        max-height: 50rem;
+    }
+
 
     .text-box{
         grid-column: 2/3;
         grid-row: 3/4;
         text-align: left;
-        margin-top: 4rem;
+        margin-top: 7rem;
         
 
         @include respond (sm) {
-            align-self: center;
+            margin-top: 2rem;
         }
     }
 
@@ -40,7 +44,7 @@
 }
 
 .features-1{
-    background: url('/image/HQ_0542_2_copy_2_1.webp');
+    background: linear-gradient(224deg,rgba(0, 0, 0, 0.32) 0%, rgba(0, 0, 0, 0.32) 85%), url('/image/CASSI—STANDING.webp');
     background-size: 110%;
     background-position: top;
 
@@ -54,9 +58,21 @@
 }
 
 .features-2{
-    background: linear-gradient(180deg,rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 1) 100%), url('/image/HQ_0592_2_copy_2_1.webp');
+    background:  url('/image/HQ_0592_2_copy_2_1.webp');
     background-size: 176%;
     background-position: center;
+    
+
+    .black-box{
+        grid-column: 1/-1;
+        grid-row: 3/4;
+        margin-top: 2rem;
+        background-color: black;
+
+        @include respond (sm) {
+            margin-top: 0rem;
+        }
+    }
 
    
 

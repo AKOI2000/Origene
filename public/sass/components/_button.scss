@@ -13,8 +13,11 @@
     -moz-border-radius: .5rem;
     -ms-border-radius: .5rem;
     -o-border-radius: .5rem;
-    // width: 16.6rem;
-    // height: 7.1rem;
+    transition: all .2s;
+
+    &:hover{
+        transform: scale(0.94);
+    }
 }
 
 .btn-sm{
@@ -26,6 +29,11 @@
     -ms-border-radius: .5rem;
     -o-border-radius: .5rem;
     text-decoration: none;
+    transition: all .2s;
+
+    &:hover{
+        transform: scale(0.94);
+    }
 
     @include respond (md) {
         width: 100%;
@@ -43,6 +51,11 @@
     -ms-border-radius: 50rem;
     -o-border-radius: 50rem;
     font-weight: 900;
+    transition: all .2s;
+
+    &:hover{
+        transform: scale(0.94);
+    }
 }
 
 
@@ -60,6 +73,11 @@
     -ms-border-radius: .5rem;
     -o-border-radius: .5rem;
     margin-top: 5rem;
+    transition: all .2s;
+
+    &:hover{
+        transform: scale(0.94);
+    }
     // width: 16.6rem;
     // height: 7.1rem;
 }
@@ -72,6 +90,12 @@
 .btn-white{
     color: $color-secondary;
     background-color: $color-primary;
+    transition: all .2s;
+
+    // &:hover{
+    //     color: $color-primary;
+    //     background-color: $color-secondary;
+    // }
 }
 
 .btn-black{

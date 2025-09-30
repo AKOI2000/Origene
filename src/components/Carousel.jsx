@@ -114,10 +114,10 @@ function Carousel({ img1, img2, img3, img4, isLoading }) {
       </button>
 
       <div className="gallery" ref={flickityNode}>
-        <div className="gallery-cell"><img src={img1} /></div>
-        <div className="gallery-cell"><img src={img2} /></div>
-        <div className="gallery-cell"><img src={img3} /></div>
-        <div className="gallery-cell"><img src={img4} /></div>
+        <div className="gallery-cell cell-1"><img src={img1} /></div>
+        <div className="gallery-cell cell-2"><img src={img2} /></div>
+        <div className="gallery-cell cell-3"><img src={img3} /></div>
+        <div className="gallery-cell cell-4"><img src={img4} /></div>
       </div>
 
       <div className="progress-bar margin-top-md">

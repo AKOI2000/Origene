@@ -25,7 +25,7 @@
         // position: fixed;
 
         .logo-box{
-            flex-basis: 15%;
+            flex-basis: 13%;
 
             @include respond (md) {
                 flex-basis: 25%;
@@ -33,12 +33,12 @@
 
             
             @include respond (sm) {
-                flex-basis: 33%;
+                flex-basis: 37%;
             }
 
              
             @include respond (xs) {
-                flex-basis: 35%;
+                flex-basis: 38%;
             }
             img{
                 width: 100%;
@@ -93,6 +93,7 @@
             padding: 3rem 4rem;
             text-align: left;
             justify-content: start;
+            padding-top: 5rem;
             //height: 150px;
 
 

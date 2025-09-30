@@ -20,7 +20,7 @@ function SectionShowcase() {
             Buy our bestselling <span>Crosshatch Pants</span>
           </h2>
           <div className="img-box">
-          <img src={`${import.meta.env.BASE_URL}/image/HQ_0020_copy_2_2_(1).webp`}/>
+          <img src={`${import.meta.env.BASE_URL}/image/cassi—mobile.webp`}/>
           </div>
           <div className="button-box text-align margin-top-sm">
             <Button direction={"/Origene/shop"} styles={"btn-black"}>
@@ -36,7 +36,7 @@ function SectionShowcase() {
            Buy our bestselling <span>FIRE & EARTH TWO PIECE</span>
           </h2>
           <div className="img-box">
-          <img src={`${import.meta.env.BASE_URL}/image/HQ_0020_copy_2_3_(1).webp`}/>
+          <img src={`${import.meta.env.BASE_URL}/image/iremide—mobile.webp`}/>
           </div>
           <div className="button-box text-align margin-top-sm">
             <Button direction={"/Origene/shop"} styles={"btn-black"}>
