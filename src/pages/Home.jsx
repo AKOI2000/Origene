@@ -12,7 +12,7 @@ import { useState, useEffect } from 'react';
 
 
 
-function Home() {
+function Home({isLoading}) {
   const [scrolled, setScrolled] = useState(false);
 
   useEffect(() => {
@@ -43,7 +43,7 @@ function Home() {
       <Navbar scrolled={scrolled}/>
       <Hero/>
       <SectionCategory />
-      <SectionCarousel/>
+      <SectionCarousel isLoading={isLoading}/>
       <SectionShowcase /> 
       <SectionExperience />
       <SectionFeatures />

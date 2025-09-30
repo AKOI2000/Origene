@@ -4,7 +4,7 @@
     aspect-ratio: 1920 / 1561;
 
     @include respond (sm) {
-        aspect-ratio: 4 / 5;
+        aspect-ratio: 5 / 7;
         padding: 3rem 5rem;
     }
     
@@ -38,7 +38,7 @@
 
         .img-box{
             display: none;
-            width: 80%;
+            width: 95%;
             margin: auto;
             margin-top: 2rem;
 

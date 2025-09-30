@@ -13,6 +13,7 @@
     -moz-transition: all .2s;
     -ms-transition: all .2s;
     -o-transition: all .2s;
+    position: fixed;
 
     .header{
         display: flex;
@@ -21,6 +22,7 @@
         justify-content: space-between;
         align-items: center;
         color: #fff;
+        // position: fixed;
 
         .logo-box{
             flex-basis: 15%;
@@ -113,7 +115,7 @@
                 font-size: 2rem;
                 padding: 1rem 0;
             
-                
+
 
                 &:not(:last-child) {
                     margin-bottom: 2rem;

@@ -7,7 +7,7 @@ function SectionShowcase() {
     useEffect(() => {
         const interval = setInterval(() => {
           setIndex((prev) => (prev >= 1 ? 0 : prev + 1));
-        }, 5000);
+        }, 3000);
         return () => clearInterval(interval);
       }, []);
 

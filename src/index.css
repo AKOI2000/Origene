@@ -275,7 +275,7 @@ body {
 }
 @media (max-width: 480px) {
   .page-heading h2 {
-    font-size: 4.5rem;
+    font-size: 4.2rem;
   }
 }
 
@@ -641,11 +641,21 @@ body {
     margin-bottom: 1rem;
   }
 }
+@media (max-width: 480px) {
+  .footer-newsletter form input {
+    font-size: 1.45rem;
+  }
+}
 .footer-newsletter form input::placeholder {
   color: #fff;
   font-weight: 300;
   font-family: "Helvetica";
   font-size: 1.3rem;
+}
+@media (max-width: 480px) {
+  .footer-newsletter form input::placeholder {
+    font-size: 1.45rem;
+  }
 }
 .footer-copyrights {
   display: grid;
@@ -784,6 +794,7 @@ body {
   -moz-transition: all 0.2s;
   -ms-transition: all 0.2s;
   -o-transition: all 0.2s;
+  position: fixed;
 }
 .nav-container .header {
   display: flex;
@@ -1176,6 +1187,16 @@ body {
   background-size: 110%;
   background-position: top;
 }
+@media (max-width: 480px) {
+  .features-1 {
+    background-size: 130%;
+  }
+}
+@media (max-width: 360px) {
+  .features-1 {
+    background-size: 135%;
+  }
+}
 
 .features-2 {
   background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgb(0, 0, 0) 100%), url("/image/HQ_0592_2_copy_2_1.webp");
@@ -1214,7 +1235,7 @@ body {
 }
 @media (max-width: 480px) {
   #section-showcase {
-    aspect-ratio: 4/5;
+    aspect-ratio: 5/7;
     padding: 3rem 5rem;
   }
 }
@@ -1245,7 +1266,7 @@ body {
 }
 #section-showcase .showcase-text_box .img-box {
   display: none;
-  width: 80%;
+  width: 95%;
   margin: auto;
   margin-top: 2rem;
 }
@@ -1570,8 +1591,37 @@ body {
     margin-top: 9rem;
   }
 }
+@media (max-width: 480px) {
+  #about .column-gap-5 {
+    row-gap: 3rem;
+  }
+}
 #about img {
   width: 100%;
+}
+#about .about-image__img-box {
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+}
+#about .about-image__img-box img {
+  width: 100%;
+  grid-row: 1/-1;
+  grid-column: 1/-1;
+}
+@media (max-width: 480px) {
+  #about .about-image__img-box .main {
+    display: none;
+  }
+}
+#about .about-image__img-box .main-mobile {
+  display: none;
+}
+@media (max-width: 480px) {
+  #about .about-image__img-box .main-mobile {
+    display: inline-block;
+  }
 }
 #about .about-paragraph {
   font-weight: 300;
@@ -1591,6 +1641,7 @@ body {
 @media (max-width: 480px) {
   #about .about-paragraph {
     padding: 5rem 5%;
+    text-align: left;
   }
 }
 @media (max-width: 360px) {
@@ -1612,8 +1663,14 @@ body {
 #about .about-profile .profile-caption {
   font-size: 1.5rem;
 }
+@media (max-width: 480px) {
+  #about .about-profile .profile-caption {
+    font-size: 1.7rem;
+    margin-top: 1rem;
+  }
+}
 #about .about-quote {
-  padding: 7rem 23%;
+  padding: 7rem 18%;
   text-align: center;
   font-weight: 400;
 }
@@ -1638,20 +1695,34 @@ body {
   }
 }
 #about .about-quote h4 {
-  font-size: 5rem;
+  font-size: 7rem;
   font-weight: 400;
-  letter-spacing: 0.5px;
+  letter-spacing: -0.5px;
   line-height: 1.3;
   margin-bottom: 2rem;
 }
+#about .about-quote h4 br {
+  display: none;
+}
+@media (max-width: 480px) {
+  #about .about-quote h4 br {
+    display: inline-block;
+  }
+}
 @media (max-width: 480px) {
   #about .about-quote h4 {
-    font-size: 4.2rem;
+    font-size: 6rem;
+    letter-spacing: -1px;
   }
 }
 #about .about-quote h5 {
   font-size: 1.4rem;
   font-weight: 400;
+}
+@media (max-width: 480px) {
+  #about .about-quote h5 {
+    font-size: 2rem;
+  }
 }
 
 #contact {

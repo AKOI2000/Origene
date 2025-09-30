@@ -109,11 +109,19 @@
             margin-bottom: 1rem;
         }
 
+        @include respond (sm) {
+          font-size: 1.45rem;
+        }
+
         &::placeholder {
           color: $color-primary;
           font-weight: 300;
           font-family: $font-text;
           font-size: 1.3rem;
+
+          @include respond (sm) {
+            font-size: 1.45rem;
+          }
         }
       }
     }

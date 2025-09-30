@@ -9,9 +9,14 @@ function About() {
         <div className="page-heading">
           <h2>The ORigene story</h2>
         </div>
-        <div className="about-imge__img-box">
-          <img
+        <div className="about-image__img-box">
+          <img className="main"
             src="./image/About_Main.webp"
+            alt="Origene's Co-founders, Oluwatobi and Adewale Hassan"
+          />
+
+          <img className="main-mobile"
+            src="./image/about-main-mobile.png"
             alt="Origene's Co-founders, Oluwatobi and Adewale Hassan"
           />
         </div>
@@ -45,7 +50,6 @@ function About() {
         </div>
 
         <div className="grid grid-2-by-1 column-gap-5">
-
           <div className="about-profile">
             <div className="profile-img-box">
               <img
@@ -65,15 +69,16 @@ function About() {
             </div>
             <p className="profile-caption">Oluwatobi Hassan</p>
           </div>
-
         </div>
 
         <div className="about-quote">
-            <h4>“We shared everything as kids, now we want to share our craft with the world”</h4>
+          <h4>
+            “We shared <br/>everything as<br/> kids, now we<br/> want to share <br/>our craft with<br/> 
+             the world”
+          </h4>
 
-            <h5>— OLUWATOBI HASSAN</h5>
+          <h5> OLUWATOBI HASSAN</h5>
         </div>
-
       </div>
       <Footer />
     </>
