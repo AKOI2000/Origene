@@ -1739,6 +1739,9 @@ body {
     margin-top: 7rem;
   }
 }
+#contact .column-gap-3 {
+  row-gap: 2rem;
+}
 #contact .contact-card {
   border: 1px solid #000;
   padding: 3rem 1rem;
