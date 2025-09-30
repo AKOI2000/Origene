@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-function FeatureCard({ featureHeader, buttonText, paragraphText }) {
+function FeatureCard({ featureHeader, buttonText, paragraphText, substringText }) {
   return (
     <>
       {!paragraphText ? (
@@ -18,7 +18,8 @@ function FeatureCard({ featureHeader, buttonText, paragraphText }) {
             <div className="text-box">
               <h5 className="heading-5 margin-bottom-xsl">{featureHeader}</h5>
               <div className="subtext">
-                <p>{paragraphText}</p>
+                <p className="paragraph">{paragraphText}</p>
+                <p className="substringText">{substringText}</p>
                 <Link to="/Origene/about-us" className="margin-left-sm">
                   <img src="./image/btn-rounded.png" />
                 </Link>

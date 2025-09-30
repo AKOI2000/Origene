@@ -1,5 +1,9 @@
 import { Link } from "react-router-dom";
 import { useState } from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faXmark
+} from "@fortawesome/free-solid-svg-icons";
 
 function Navbar({ scrolled }) {
   const [isOpen, setIsOpen] = useState(false);
@@ -22,9 +26,8 @@ function Navbar({ scrolled }) {
             </Link>
           )}
         </div>
-
+        {isOpen && <button onClick={toggleMenu}><FontAwesomeIcon icon={faXmark} /></button>}
         <nav className={isOpen ? "open" : ""}>
-          <button onClick={toggleMenu}>&times;</button>
           <Link to="/Origene/shop">Shop</Link>
           <Link to="/Origene/about-us">About Origene</Link>
           <Link to="/Origene/contact-us">Contact us</Link>

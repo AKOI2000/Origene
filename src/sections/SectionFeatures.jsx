@@ -1,12 +1,15 @@
 import FeatureCard from "../components/FeatureCard";
 
 function SectionFeatures() {
+  const paragraph = 'The story of brothers, Adewale Hassan and Oluwatobi Hassan and how they built Origene fashion as first choice option for fashion-forward African men...'
 
+  const subsringText = paragraph.substring(0, 59)
+  console.log(subsringText);
   return (
     <div id="section-features">
       <div className="grid grid-2-by-1 column-gap-8 feature-box">
         <FeatureCard featureHeader={'See all items'} buttonText={'Start shopping'}/>
-        <FeatureCard featureHeader={'The Origene Story'} paragraphText={'The story of brothers, Adewale Hassan and Oluwatobi Hassan and how they built Origene fashion as first choice option for fashion-forward African men...'} />
+        <FeatureCard featureHeader={'The Origene Story'} paragraphText={'The story of brothers, Adewale Hassan and Oluwatobi Hassan and how they built Origene fashion as first choice option for fashion-forward African men...'} substringText={`${subsringText}.....`}/>
       </div>
     </div>
   );

@@ -93,29 +93,19 @@
             padding: 3rem 4rem;
             text-align: left;
             justify-content: start;
-            padding-top: 5rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
             //height: 150px;
 
 
-            button{
-                display: flex;
-                justify-content: center;
-                width: 5rem;
-                height: 5rem;
-                border-radius: 50%;
-                background: $color-secondary;
-                color: $color-primary;
-                font-size: 4.5rem;
-                border: 0;
-                position: absolute;
-                right: 3rem;
-            }
+        
             
             a{
                 color: black;
                 font-size: 2rem;
-                padding: 1rem 0;
-            
+                padding: 2rem 3rem;
+               
 
 
                 &:not(:last-child) {
@@ -128,6 +118,24 @@
             //     margin: auto;
             //     margin-top: 3rem;
             // }
+        }
+
+        button{
+            display: flex;
+            justify-content: center;
+            width: 4rem;
+            height: 4rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 50%;
+            background: $color-secondary;
+            color: $color-primary;
+            font-size: 2rem;
+            border: 0;
+            position: absolute;
+            right: 3rem;
+            z-index: 1000;
         }
 
         .icons{

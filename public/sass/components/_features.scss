@@ -40,6 +40,23 @@
         display: flex;
         // align-items: center;
         // justify-content: space-between;
+
+        .substringText{
+            display: none;
+
+            @include respond (sm) {
+                display: inline-block;
+            }
+        }
+
+
+        .paragraph{
+            // display: none;
+
+            @include respond (sm) {
+                display: none;
+            }
+        }
     }
 }
 

@@ -77,6 +77,30 @@
   .about-profile {
     padding-bottom: 2rem;
 
+    .femi{
+      background: url('./image/FEMI—SINGLE.webp');
+      aspect-ratio: 1000/1250;
+      background-size: 185%;
+      background-position: center;
+      
+
+      img{
+        display: none;
+      }
+    }
+
+    .tobi{
+      background: url('./image/TOBI—SINGLE.webp');
+      aspect-ratio: 1000/1250;
+      background-size: 195%;
+      background-position: center;
+      
+
+      img{
+        display: none;
+      }
+    }
+
     .profile-img-box {
       img {
         margin-bottom: 1rem;

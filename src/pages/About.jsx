@@ -26,14 +26,10 @@ function About() {
           My brother and I grew up sharing everything. Toys, clothes, and ideas that presented themselves as sketches in the corners of our notebooks, another thing we shared. What began as the simple common heritage of brotherhood neither of us had any choice in became a rhythm, each day growing more precise. 
           </p>
           <p>
-          One of us would draw and the other would refine. One would build and the other would shape and grow. Every step, every choice, every decision was complemented by the other, needing no thought or extended exchange to achieve perfection.
+          One of us would draw and the other would refine. One would build and the other would shape and grow. Every step, every choice, every decision was complemented by the other, needing no thought or extended exchange to achieve perfection. Design was never a decision. It was the language we spoke before words formed in our mouths. From childhood drawings to experiments with fabric, we learned to make sense of the world by creating something from it.
           </p>
-          <p>Design was never a decision. It was the language we spoke before words formed in our mouths. From childhood drawings to experiments with fabric, we learned to make sense of the world by creating something from it.</p>
           <p>
-          Origene is the manifestation of that history, rhythm and growth.</p>
-          <p>
-           It is the culmination of the paths of <strong>Adewale Hassan</strong> and <strong>Oluwatobi Hassan</strong>, one shaped by a decade mastering fashion design and the secrets of its empire, and the other forged through design, brand building and years of turning ideas into structured businesses. 
-          </p>
+          Origene is the manifestation of that history, rhythm and growth. It is the culmination of the paths of <strong>Adewale Hassan</strong> and <strong>Oluwatobi Hassan</strong>, one shaped by a decade mastering fashion design and the secrets of its empire, and the other forged through design, brand building and years of turning ideas into structured businesses.</p>
           <p>
           Together, my brother and I have built Origene as the extension of a story that began long before the name existed. What we once shared as brothers, we now offer through Origene - a house, a concept and an experience brought to life for others to share in. 
           </p>

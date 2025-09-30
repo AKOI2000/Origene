@@ -909,28 +909,34 @@ body {
   padding: 3rem 4rem;
   text-align: left;
   justify-content: start;
-  padding-top: 5rem;
-}
-.nav-container .header nav.open button {
   display: flex;
   justify-content: center;
-  width: 5rem;
-  height: 5rem;
-  border-radius: 50%;
-  background: #000;
-  color: #fff;
-  font-size: 4.5rem;
-  border: 0;
-  position: absolute;
-  right: 3rem;
+  align-items: center;
 }
 .nav-container .header nav.open a {
   color: black;
   font-size: 2rem;
-  padding: 1rem 0;
+  padding: 2rem 3rem;
 }
 .nav-container .header nav.open a:not(:last-child) {
   margin-bottom: 2rem;
+}
+.nav-container .header button {
+  display: flex;
+  justify-content: center;
+  width: 4rem;
+  height: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background: #000;
+  color: #fff;
+  font-size: 2rem;
+  border: 0;
+  position: absolute;
+  right: 3rem;
+  z-index: 1000;
 }
 .nav-container .header .icons {
   display: flex;
@@ -1104,6 +1110,10 @@ body {
 
 .category-card {
   width: 100%;
+  transition: all 0.2s;
+}
+.category-card:hover {
+  transform: scale(1.01);
 }
 .category-card .category-card_img-box {
   width: 100%;
@@ -1261,6 +1271,19 @@ body {
 .features .subtext {
   display: flex;
 }
+.features .subtext .substringText {
+  display: none;
+}
+@media (max-width: 480px) {
+  .features .subtext .substringText {
+    display: inline-block;
+  }
+}
+@media (max-width: 480px) {
+  .features .subtext .paragraph {
+    display: none;
+  }
+}
 
 .features-1 {
   background: linear-gradient(224deg, rgba(0, 0, 0, 0.32) 0%, rgba(0, 0, 0, 0.32) 85%), url("/image/CASSI—STANDING.webp");
@@ -1370,7 +1393,7 @@ body {
   width: 100%;
 }
 #section-showcase .section-showcase-1 {
-  background: url("./image/cassi—desktop.webp");
+  background: url("/image/cassi—desktop.webp");
   background-size: 100%;
   background-position: center left;
   background-repeat: no-repeat;
@@ -1747,6 +1770,24 @@ body {
 }
 #about .about-profile {
   padding-bottom: 2rem;
+}
+#about .about-profile .femi {
+  background: url("./image/FEMI—SINGLE.webp");
+  aspect-ratio: 1000/1250;
+  background-size: 185%;
+  background-position: center;
+}
+#about .about-profile .femi img {
+  display: none;
+}
+#about .about-profile .tobi {
+  background: url("./image/TOBI—SINGLE.webp");
+  aspect-ratio: 1000/1250;
+  background-size: 195%;
+  background-position: center;
+}
+#about .about-profile .tobi img {
+  display: none;
 }
 #about .about-profile .profile-img-box img {
   margin-bottom: 1rem;
