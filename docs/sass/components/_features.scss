@@ -25,6 +25,11 @@
         grid-row: 3/4;
         text-align: left;
         margin-top: 4rem;
+        
+
+        @include respond (sm) {
+            align-self: center;
+        }
     }
 
     .subtext{

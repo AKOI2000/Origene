@@ -73,6 +73,14 @@
   // border-radius: 50%;
   width: 2%;
 
+  @include respond (md) {
+    width: 4%;
+  }
+
+  @include respond (sm) {
+    width: 6%;
+  }
+
   img{
     width: 100%;
   }
@@ -89,12 +97,20 @@
     transform: rotate(180deg);
   }
 
+  @include respond (md) {
+    left: 22%;
+  }
+
   @include respond (sm) {
     left: 7%;
   }
 }
 .carousel-btn.next {
   right: 24.5%;
+
+  @include respond (md) {
+    right: 22%;
+  }
 
   @include respond (sm) {
     right: 7%;

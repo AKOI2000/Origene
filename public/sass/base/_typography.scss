@@ -57,7 +57,8 @@ body {
 
 .section-heading {
   text-align: center;
-  //    width: 40%;
+  width: 90%;
+  margin: auto;
 
   .section-heading-main {
     text-transform: uppercase;
@@ -68,6 +69,10 @@ body {
   .section-heading-sub {
     font-weight: 300;
     font-size: 1.3rem;
+
+    @include respond (sm) {
+      font-size: 1.4rem;
+    }
   }
 }
 
@@ -131,6 +136,10 @@ body {
       @include respond(mds) {
         width: 100%;
       }
+
+      @include respond (sm) {
+        font-size: 1.5rem;
+      }
     }
   }
 }
@@ -139,11 +148,19 @@ body {
   .footer-links-header {
     text-transform: uppercase;
     font-size: 1.5rem;
+
+    @include respond (sm) {
+      font-size: 1.7rem;
+    }
   }
 
   .footer-links {
     a {
       font-size: 1.3rem;
+
+      @include respond (sm) {
+        font-size: 1.5rem;
+      }
     }
   }
 
@@ -152,6 +169,10 @@ body {
 
     p {
       font-size: 1.4rem;
+
+      @include respond (sm) {
+        font-size: 1.6rem;
+      }
     }
 
     .footer-icons {
@@ -165,6 +186,10 @@ body {
       font-size: 1.3rem;
       text-align: left;
       line-height: 1.5;
+
+      @include respond (sm) {
+        font-size: 1.5rem;
+      }
       
     }
   }
@@ -178,6 +203,7 @@ body {
         margin-bottom: 4rem;
         font-size: 5rem;
         font-weight: normal;
+        letter-spacing: -2px;
 
         @include respond (sm) {
             font-size: 4.5rem;

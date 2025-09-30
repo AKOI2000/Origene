@@ -1,12 +1,22 @@
 @import "../utilities/mixin";
 
 #shop{
-    margin-top:  14.9rem;
+    margin-top:  9rem;
     padding: 5rem 5% 4rem;
     font-size: 5rem;
     text-align: center;
+    height: calc(100vh - 9rem);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    h2{
+        font-weight: 400;
+        letter-spacing: -3px;
+    }
  
     @include respond (sm) {
-     margin-top: 9rem;
+     margin-top: 8.5rem;
+     height: calc(100vh - 8.5rem);
     }
 }

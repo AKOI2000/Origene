@@ -14,7 +14,7 @@ function Navbar({ scrolled }) {
         <div className="logo-box">
           {scrolled ? (
             <Link to="/Origene/">
-              <img src="./image/ORIGENE_HORIZONTAL_BLACK.webp" alt="Origene" />
+              <img src="./image/ORIGENE_HORIZONTAL_BLACK.WEBP" alt="Origene" />
             </Link>
           ) : (
             <Link to="/Origene/">
@@ -24,6 +24,7 @@ function Navbar({ scrolled }) {
         </div>
 
         <nav className={isOpen ? "open" : ""}>
+          <button onClick={toggleMenu}>&times;</button>
           <Link to="/Origene/shop">Shop</Link>
           <Link to="/Origene/about-us">About Origene</Link>
           <Link to="/Origene/contact-us">Contact us</Link>

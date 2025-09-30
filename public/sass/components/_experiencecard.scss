@@ -5,7 +5,8 @@
     background: $color-grey;
     padding: 3rem 5rem;
     display: grid;
-    grid-template-rows: 1fr 2fr;
+    grid-template-rows: 1fr max-content;
+    // column-gap: 3rem;
     // box-shadow: -1px 6px 28px -5px rgba(0,0,0,0.15);
     // -webkit-box-shadow: -1px 6px 28px -5px rgba(0,0,0,0.15);
     // -moz-box-shadow: -1px 6px 28px -5px rgba(0,0,0,0.15);
@@ -27,15 +28,15 @@
     }
 
     .experience-text{
-        font-weight: 300;
+        font-weight: 400;
         text-align: center;
         line-height: 1.5;
         h4{
-            font-size: 1.8rem;
-            font-weight: 300;
+            font-size: 2rem;
+            font-weight: 400;
         }
         p{
-            font-size: 1.2rem;
+            font-size: 1.6rem;
             // width: 24.5rem;
             // margin: auto;
         }
