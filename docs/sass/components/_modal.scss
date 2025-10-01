@@ -135,6 +135,10 @@
             }
 
             .newsletter-input{
+                appearance: none !important;
+                -webkit-appearance: none !important;
+                -moz-appearance: none !important;
+
                 padding: 2rem 2rem;
                 font-size: 1.3rem;
                 width: 60%;

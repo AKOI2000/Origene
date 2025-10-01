@@ -23,8 +23,8 @@ function Home({isLoading}) {
   }
 
   if (!isOpen) {
-    document.body.style.overflowY = "scroll";
-    document.documentElement.style.overflowY = "scroll";
+    document.body.style.overflowY = "visible";
+    document.documentElement.style.overflowY = "visible";
   }
 
   useEffect(() => {
