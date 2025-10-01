@@ -34,6 +34,7 @@ function Contact() {
             img={'./image/icons/email_us.svg'}
             header={"email us"}
             linkText={" Send us an email here"}
+            linkAction={"mailto:hello@origenefashion.com"}
             workDays={"Anytime— we typically respond"}
             workHours={"within 24 hours."}
           />

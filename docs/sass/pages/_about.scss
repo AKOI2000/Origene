@@ -108,10 +108,10 @@
     }
     .profile-caption {
       font-size: 2rem;
+      margin-top: 1rem;
 
       @include respond(sm) {
         font-size: 1.7rem;
-        margin-top: 1rem;
       }
     }
   }

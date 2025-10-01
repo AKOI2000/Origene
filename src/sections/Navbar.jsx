@@ -26,7 +26,7 @@ function Navbar({ scrolled }) {
             </Link>
           )}
         </div>
-        {isOpen && <button onClick={toggleMenu}><FontAwesomeIcon icon={faXmark} /></button>}
+        <button onClick={toggleMenu} className={isOpen ? "openBtn" : ""}><FontAwesomeIcon icon={faXmark} /></button>
         <nav className={isOpen ? "open" : ""}>
           <Link to="/Origene/shop">Shop</Link>
           <Link to="/Origene/about-us">About Origene</Link>

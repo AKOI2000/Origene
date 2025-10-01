@@ -18,6 +18,7 @@ function Carousel({ img1, img2, img3, img4, isLoading }) {
       prevNextButtons: false,
       pageDots: false,
       autoPlay: 2000,
+      pauseAutoPlayOnHover: false,
       groupCells: 1,
     });
 
