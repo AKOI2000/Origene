@@ -50,7 +50,7 @@ function Home({isLoading}) {
   useEffect(()=> {
     const initialLoad = setTimeout(() => {
       setIsOpen(true);
-    }, 6000);
+    }, 7000);
 
 
     return () => clearTimeout(initialLoad)

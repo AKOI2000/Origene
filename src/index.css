@@ -1630,7 +1630,6 @@ body {
   .modal-container .modal-card form {
     margin-top: 2rem;
     flex-direction: column;
-    gap: 0.5rem;
   }
 }
 .modal-container .modal-card form input {
@@ -1640,21 +1639,23 @@ body {
 @media (max-width: 480px) {
   .modal-container .modal-card form input {
     width: 100%;
+    padding: 2rem 1rem;
   }
 }
-.modal-container .modal-card form button {
+.modal-container .modal-card form .newsletter-btn {
   padding: 0.5rem 1rem;
   font-size: 1.3rem;
   text-transform: uppercase;
   font-weight: 500;
   border-radius: 0.5rem;
   transition: all 0.2s;
+  border: 0;
 }
-.modal-container .modal-card form button:hover {
+.modal-container .modal-card form .newsletter-btn:hover {
   transform: scale(0.97);
 }
 @media (max-width: 480px) {
-  .modal-container .modal-card form button {
+  .modal-container .modal-card form .newsletter-btn {
     padding: 2rem;
     width: 100%;
   }
