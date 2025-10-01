@@ -9,7 +9,7 @@ function Hero() {
             <div className="hero-box">
                 <h1 className="hero-text">MASTERS <br></br> OF THE CRAFT</h1>
                 {/* <a href="#" className="btn btn-white margin-top-sm">SHOP NOW</a> */}
-                <Button direction={`/Origene/shop`} styles={`btn-white margin-top-sm`}>Shop now</Button>
+                <Button direction={`/shop`} styles={`btn-white margin-top-sm`}>Shop now</Button>
             </div>
         </div>
     )

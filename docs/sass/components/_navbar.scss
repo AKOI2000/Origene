@@ -69,13 +69,14 @@
             @include respond(md){
                 visibility: hidden;
                 opacity: 0;
-                height: 100%;
+                height: 50%;
                 position: fixed;
-                // top: 0;
+                // top: 100%;
                 right: 0;
                 width: 100%;
                 transform: translateY(100%);
-                transition: all .5s;
+                transition: all .3s;
+                flex-direction: column;
             }
         }
 
@@ -91,19 +92,47 @@
             flex-direction: column;
             background-color: #fff;
             padding: 3rem 4rem;
-            text-align: left;
+            text-align: center;
             justify-content: start;
             display: flex;
             justify-content: center;
             align-items: center;
             //height: 150px;
 
+            button{
+                display: flex;
+                justify-content: center;
+                width: 5.5rem;
+                height: 5.5rem;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 50%;
+                background: $color-secondary;
+                color: $color-primary;
+                font-size: 2.5rem;
+                border: 0;
+                position: absolute;
+                transform: translateY(100px);
+                top: 5rem;
+                right: 3rem;
+                z-index: 1000;
+                transition: all .3s ;
+                visibility: hidden;
+            }
+    
+            .openBtn{
+                transform: translateY(0);
+                visibility: visible;
+                z-index: 1000;
+            }
+
 
         
             
             a{
                 color: black;
-                font-size: 4rem;
+                font-size: 3rem;
                 padding: 2rem 3rem;
                
 
@@ -120,33 +149,7 @@
             // }
         }
 
-        button{
-            display: flex;
-            justify-content: center;
-            width: 7rem;
-            height: 7rem;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            border-radius: 50%;
-            background: $color-secondary;
-            color: $color-primary;
-            font-size: 3rem;
-            border: 0;
-            position: absolute;
-            transform: translateY(500px);
-            top: 5rem;
-            right: 5rem;
-            z-index: 1000;
-            transition: all .4s;
-            visibility: hidden;
-        }
-
-        .openBtn{
-            transform: translateY(0);
-            visibility: visible;
-            z-index: 1000;
-        }
+    
 
         .icons{
             display: flex;

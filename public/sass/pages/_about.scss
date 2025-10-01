@@ -103,12 +103,12 @@
 
     .profile-img-box {
       img {
-        margin-bottom: 1rem;
+        margin-bottom: 2rem;
       }
     }
     .profile-caption {
       font-size: 2rem;
-      margin-top: 1rem;
+      margin-top: 1.5rem;
 
       @include respond(sm) {
         font-size: 1.7rem;

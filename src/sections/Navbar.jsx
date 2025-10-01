@@ -17,20 +17,21 @@ function Navbar({ scrolled }) {
       <header className="header">
         <div className="logo-box">
           {scrolled ? (
-            <Link to="/Origene/">
+            <Link to="/">
               <img src="image/ORIGENE_HORIZONTAL_BLACK.PNG" alt="Origene" />
             </Link>
           ) : (
-            <Link to="/Origene/">
+            <Link to="/">
               <img src="image/ORIGENE_HORIZONTAL_WHITE.webp" alt="Origene" />
             </Link>
           )}
         </div>
-        <button onClick={toggleMenu} className={isOpen ? "openBtn" : ""}><FontAwesomeIcon icon={faXmark} /></button>
+        
         <nav className={isOpen ? "open" : ""}>
-          <Link to="/Origene/shop">Shop</Link>
-          <Link to="/Origene/about-us">About Origene</Link>
-          <Link to="/Origene/contact-us">Contact us</Link>
+        <button onClick={toggleMenu} className={isOpen ? "openBtn" : ""}><FontAwesomeIcon icon={faXmark} /></button>
+          <Link to="/shop">Shop</Link>
+          <Link to="/about-us">About Origene</Link>
+          <Link to="/contact-us">Contact us</Link>
 
           {/* <img src='./image/ORIGENE HORIZONTAL BLACK.png'/> */}
         </nav>
@@ -70,7 +71,7 @@ function Navbar({ scrolled }) {
               />
             </svg>
           </a>
-          <a href="#">
+          <Link to={"/shop"}>
             <svg
               width="17"
               height="21"
@@ -84,8 +85,7 @@ function Navbar({ scrolled }) {
                 fill="currentColor"
               />
             </svg>
-          </a>
-          {/* <img src={scrolled ? './image/icons/menu-black.svg' :'./image/icons/menu.svg'} className='nav-icons' id='menu' onClick={toggleMenu}/> */}
+          </Link>
 
           <svg
             width="20"

@@ -7,7 +7,7 @@ function FeatureCard({ featureHeader, buttonText, paragraphText, substringText }
         <div className="features features-1">
           <div className="text-box">
             <h5 className="heading-5 margin-bottom-sm">{featureHeader}</h5>
-            <Link to="/Origene/shop" className="btn-md features-btn btn-white">
+            <Link to="/shop" className="btn-md features-btn btn-white">
               {buttonText}
             </Link>
           </div>
@@ -20,7 +20,7 @@ function FeatureCard({ featureHeader, buttonText, paragraphText, substringText }
               <div className="subtext">
                 <p className="paragraph">{paragraphText}</p>
                 <p className="substringText">{substringText}</p>
-                <Link to="/Origene/about-us" className="margin-left-sm features-btn">
+                <Link to="/about-us" className="margin-left-sm features-btn">
                   <img src="./image/btn-rounded.png" />
                 </Link>
                 {/* btn-rounded btn-white  */}

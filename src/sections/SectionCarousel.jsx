@@ -3,7 +3,7 @@ import Carousel from '../components/Carousel'
 function SectionCarousel({isLoading}) {
     return (
         <div id="section-carousel">
-             <Carousel img1={`${import.meta.env.BASE_URL}/image/HASSAN-GALLERY.webp`} img2={`${import.meta.env.BASE_URL}/image/CASSI-GALLERY.webp`} img3={`${import.meta.env.BASE_URL}/image/IREMIDE-WHITE-GALLERY.webp`} img4={`${import.meta.env.BASE_URL}/image/IREMIDE-GALLERY.webp`} isLoading={isLoading}/>
+             <Carousel img1={`/image/HASSAN-GALLERY.webp`} img2={`/image/CASSI-GALLERY.webp`} img3={`/image/IREMIDE-WHITE-GALLERY.webp`} img4={`/image/IREMIDE-GALLERY.webp`} isLoading={isLoading}/>
              {/* ${import.meta.env.BASE_URL} */}
         </div>
     )
