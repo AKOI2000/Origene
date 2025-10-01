@@ -161,6 +161,7 @@ body {
 .section-heading .section-heading-sub {
   font-weight: 400;
   font-size: 1.6rem;
+  line-height: 1.3;
 }
 @media (max-width: 480px) {
   .section-heading .section-heading-sub {
@@ -427,6 +428,7 @@ body {
 
 .button-box {
   width: 100%;
+  height: 7.1rem;
 }
 .button-box .btn {
   transition: all 0.2s;

@@ -56,7 +56,7 @@ function Footer() {
         </div>
 
         <div className="footer-newsletter">
-            <p>Join our newsletter to stay up to date on features and releases.</p>
+            <p>Join our newsletter to stay up to date on discounts and releases</p>
             <form action={'https://assets.mailerlite.com/jsonp/1828595/forms/167011128113628777/subscribe'} method="post">
                 <input type="text" placeholder="Enter your email"/>
                 <button className="btn-sm btn-white">Subscribe</button>
