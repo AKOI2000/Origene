@@ -38,7 +38,7 @@ function NewsletterModal({isOpen, setIsOpen}) {
         </p>
 
         <form action="" onSubmit={handleSubmit}>
-            <input type="email" placeholder="Enter your email" value={email} onChange={e=> setEmail(e.target.value)}/>
+            <input type="email" placeholder="Enter your email" value={email} onChange={e=> setEmail(e.target.value)} />
             <button className="btn-black newsletter-btn">Get 10% off now</button>
         </form>
         {/* <small>{message}</small> */}

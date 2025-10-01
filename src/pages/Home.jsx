@@ -19,10 +19,12 @@ function Home({isLoading}) {
 
   if (isOpen) {
     document.body.style.overflowY = "hidden";
+    document.documentElement.style.overflowY = "hidden";
   }
 
   if (!isOpen) {
     document.body.style.overflowY = "scroll";
+    document.documentElement.style.overflowY = "scroll";
   }
 
   useEffect(() => {

@@ -6,6 +6,7 @@ import {
   faXTwitter
 } from "@fortawesome/free-brands-svg-icons";
 import Newsletter from "../components/Newsletter";
+import { Link } from "react-router-dom";
 function Footer() {
   return (
     <footer className="footer">
@@ -32,13 +33,13 @@ function Footer() {
             <div className="footer-links-header">company</div>
             <ul>
               <li>
-                <a href="#">Home</a>
+                <Link to="/">Home</Link>
               </li>
               <li>
-                <a href="#">About us</a>
+                <Link to="/about-us">About us</Link>
               </li>
               <li>
-                <a href="#">Contact us</a>
+                <Link to="/contact-us">Contact us</Link>
               </li>
             </ul>
           </div>
