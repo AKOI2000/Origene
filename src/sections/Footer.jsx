@@ -5,6 +5,7 @@ import {
   faYoutube,
   faXTwitter
 } from "@fortawesome/free-brands-svg-icons";
+import Newsletter from "../components/Newsletter";
 function Footer() {
   return (
     <footer className="footer">
@@ -55,14 +56,7 @@ function Footer() {
           </div>
         </div>
 
-        <div className="footer-newsletter">
-            <p>Join our newsletter to stay up to date on discounts and releases</p>
-            <form action={'https://assets.mailerlite.com/jsonp/1828595/forms/167011128113628777/subscribe'} method="post">
-                <input type="text" placeholder="Enter your email"/>
-                <button className="btn-sm btn-white">Subscribe</button>
-            </form>
-            <p>By subscribing you agree to with our Privacy Policy and provide consent to receive updates from our company.</p>
-        </div>
+       <Newsletter />
 
         <div className="footer-copyrights">
           <p>© 2025 Origene Fashion - All rights reserved.</p>

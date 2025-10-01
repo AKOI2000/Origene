@@ -13,7 +13,8 @@ function FeatureCard({ featureHeader, buttonText, paragraphText, substringText }
           </div>
         </div>
       ) : (
-        <Link to="/about-us" className="features features-2">
+        <>
+          <div className="features features-2 feature-2-card">
           <div className="black-box"></div>
             <div className="text-box">
               <h5 className="heading-5 margin-bottom-xsl">{featureHeader}</h5>
@@ -26,7 +27,22 @@ function FeatureCard({ featureHeader, buttonText, paragraphText, substringText }
                 {/* btn-rounded btn-white  */}
               </div>
             </div>
+        </div>
+
+
+        <Link to="/about-us" className="features features-2 feature-2-btn">
+          <div className="black-box"></div>
+            <div className="text-box">
+              <h5 className="heading-5 margin-bottom-xsl">{featureHeader}</h5>
+              <div className="subtext">
+                <p className="paragraph">{paragraphText}</p>
+                <p className="substringText">{substringText}</p>
+                {/* btn-rounded btn-white  */}
+              </div>
+            </div>
         </Link>
+        
+        </>
       )}
     </>
   );

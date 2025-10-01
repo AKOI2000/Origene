@@ -91,6 +91,8 @@
         }
     }
 
+    
+
    
 
     a{
@@ -116,5 +118,21 @@
 
     @include respond (xs) {
         background-size: 200%;
+    }
+}
+
+.feature-2-card{
+
+
+    @include respond (sm) {
+        display: none;
+    }
+}
+
+.feature-2-btn{
+    display: none;
+
+    @include respond (sm) {
+        display: grid;
     }
 }

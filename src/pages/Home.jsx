@@ -8,12 +8,22 @@ import SectionOrigene from '../sections/SectionOrigene';
 import Footer from '../sections/Footer';
 import Navbar from "../sections/Navbar";
 import { useState, useEffect } from 'react';
+import NewsletterModal from '../components/NewsletterModal';
 
 
 
 
 function Home({isLoading}) {
   const [scrolled, setScrolled] = useState(false);
+  const [isOpen, setIsOpen] = useState(false);
+
+  if (isOpen) {
+    document.body.style.overflowY = "hidden";
+  }
+
+  if (!isOpen) {
+    document.body.style.overflowY = "scroll";
+  }
 
   useEffect(() => {
     const handleScroll = () => {
@@ -21,8 +31,6 @@ function Home({isLoading}) {
       if (!section2) return;
 
       const section2Top = section2.getBoundingClientRect().top;
-      console.log(section2Top);
-
       if (section2Top < 0) {
         setScrolled(true);
       } else {
@@ -38,8 +46,19 @@ function Home({isLoading}) {
     };
   }, []);
 
+
+  useEffect(()=> {
+    const initialLoad = setTimeout(() => {
+      setIsOpen(true);
+    }, 6000);
+
+
+    return () => clearTimeout(initialLoad)
+  }, [])
+
   return (
     <div>
+      <NewsletterModal isOpen={isOpen} setIsOpen={setIsOpen}/>
       <Navbar scrolled={scrolled}/>
       <Hero/>
       <SectionCategory />
