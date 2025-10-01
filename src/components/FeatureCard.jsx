@@ -13,7 +13,7 @@ function FeatureCard({ featureHeader, buttonText, paragraphText, substringText }
           </div>
         </div>
       ) : (
-        <Link to="/Origene/about-us" className="features features-2">
+        <Link to="/about-us" className="features features-2">
           <div className="black-box"></div>
             <div className="text-box">
               <h5 className="heading-5 margin-bottom-xsl">{featureHeader}</h5>

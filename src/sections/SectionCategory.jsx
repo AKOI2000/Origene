@@ -14,7 +14,7 @@ function SectionCategory() {
             </div>
 
             <div className="center margin-top-md">
-            <Button styles={'btn-black'} direction={'/Origene/shop'}>Shop now</Button>
+            <Button styles={'btn-black'} direction={'/shop'}>Shop now</Button>
             </div>
         </div>
     )
