@@ -26,13 +26,13 @@ function App() {
           <ScrollToTop>
             <Routes>
               <Route
-                path="/Origene/"
+                path="/"
                 element={<Home />}
                 isLoading={isLoading}
               />
-              <Route path="/Origene/shop" element={<Shop />} />
-              <Route path="/Origene/contact-us" element={<Contact />} />
-              <Route path="/Origene/about-us" element={<About />} />
+              <Route path="/shop" element={<Shop />} />
+              <Route path="/contact-us" element={<Contact />} />
+              <Route path="/about-us" element={<About />} />
               <Route path="*" element={<Home />} />
             </Routes>
           </ScrollToTop>
